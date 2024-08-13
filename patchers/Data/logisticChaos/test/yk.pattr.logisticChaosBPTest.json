@@ -1,0 +1,99 @@
+{
+	"pattrstorage" : 	{
+		"name" : "yk.pattr.logisticChaosBPTest",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "test 1",
+				"data" : 				{
+					"yk.logisticChaosBP::drive" : [ 3.152808 ],
+					"yk.logisticChaosBP::interval" : [ 50 ],
+					"yk.logisticChaosBP::offset" : [ 0.0 ],
+					"yk.logisticChaosBP::scaleMax" : [ 1.0 ],
+					"yk.logisticChaosBP::scaleMin" : [ 0.0 ],
+					"yk.logisticChaosBP::switch" : [ 1 ],
+					"yk.logisticChaosBP::yk.pattr.logisticChaosBP" : [ -1 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveMax" : [ 4.0 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveMin" : [ 2.73 ],
+					"yk.logisticChaosBP::randCtrl::RCDrivePeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveSwitch" : [ 1 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalMax" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalMin" : [ 10 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalPeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalSwitch" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetMax" : [ 10000.0 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetMin" : [ -10000.0 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetPeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetSwitch" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxMax" : [ 10000.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxMin" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxPeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxSwitch" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinMax" : [ 10000.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinMin" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinPeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinSwitch" : [ 0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "test 2",
+				"data" : 				{
+					"yk.logisticChaosBP::drive" : [ 3.730874 ],
+					"yk.logisticChaosBP::interval" : [ 335 ],
+					"yk.logisticChaosBP::offset" : [ 0.0 ],
+					"yk.logisticChaosBP::scaleMax" : [ 1.0 ],
+					"yk.logisticChaosBP::scaleMin" : [ 0.0 ],
+					"yk.logisticChaosBP::switch" : [ 1 ],
+					"yk.logisticChaosBP::yk.pattr.logisticChaosBP" : [ -1 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveMax" : [ 4.0 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveMin" : [ 2.73 ],
+					"yk.logisticChaosBP::randCtrl::RCDrivePeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCDriveSwitch" : [ 1 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalMax" : [ 422 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalMin" : [ 10 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalPeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCIntervalSwitch" : [ 1 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetMax" : [ 10000.0 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetMin" : [ -10000.0 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetPeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCOffsetSwitch" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxMax" : [ 10000.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxMin" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxPeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMaxSwitch" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinCurve" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinHold" : [ 0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinMax" : [ 10000.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinMin" : [ 0.0 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinPeriod" : [ 2000 ],
+					"yk.logisticChaosBP::randCtrl::RCScaleMinSwitch" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,30 @@
+{
+	"pattrstorage" : 	{
+		"name" : "yk.pattr.gaussianMixtureBPTest",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "init",
+				"data" : 				{
+					"yk.gaussianMixtureBP::amp1" : [ 1.0 ],
+					"yk.gaussianMixtureBP::amp2" : [ 0.0 ],
+					"yk.gaussianMixtureBP::amp3" : [ 0.0 ],
+					"yk.gaussianMixtureBP::interval" : [ 500 ],
+					"yk.gaussianMixtureBP::mean1" : [ 0.0 ],
+					"yk.gaussianMixtureBP::mean2" : [ 0.0 ],
+					"yk.gaussianMixtureBP::mean3" : [ 0.0 ],
+					"yk.gaussianMixtureBP::size" : [ 1000.0 ],
+					"yk.gaussianMixtureBP::std1" : [ 0.1 ],
+					"yk.gaussianMixtureBP::std2" : [ 0.1 ],
+					"yk.gaussianMixtureBP::std3" : [ 0.1 ],
+					"yk.gaussianMixtureBP::switch" : [ 0 ],
+					"yk.gaussianMixtureBP::yk.pattr.gaussianMixtureBP" : [ -1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

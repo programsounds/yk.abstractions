@@ -1,0 +1,42 @@
+{
+	"pattrstorage" : 	{
+		"name" : "yk.pattr.presetManagerBPTest",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "one",
+				"data" : 				{
+					"dial1" : [ 127 ],
+					"dial2" : [ 0 ],
+					"dial3" : [ 0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"name" : "two",
+				"data" : 				{
+					"dial1" : [ 127 ],
+					"dial2" : [ 127 ],
+					"dial3" : [ 0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"name" : "three",
+				"data" : 				{
+					"dial1" : [ 127 ],
+					"dial2" : [ 127 ],
+					"dial3" : [ 127 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

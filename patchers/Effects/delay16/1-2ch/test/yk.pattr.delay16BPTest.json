@@ -1,0 +1,81 @@
+{
+	"pattrstorage" : 	{
+		"name" : "yk.pattr.delay16BPTest",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "init",
+				"data" : 				{
+					"yk.samplePlayerBP::DCFilter" : [ 0 ],
+					"yk.samplePlayerBP::live.gain~" : [ 0.0 ],
+					"yk.samplePlayerBP::loop" : [ 1 ],
+					"yk.samplePlayerBP::outGain1-2" : [ 0.0 ],
+					"yk.samplePlayerBP::outGain3-4" : [ 0.0 ],
+					"yk.samplePlayerBP::outGain5-6" : [ 0.0 ],
+					"yk.samplePlayerBP::outGain7-8" : [ 0.0 ],
+					"yk.samplePlayerBP::pause" : [ 0 ],
+					"yk.samplePlayerBP::play" : [ 0 ],
+					"yk.samplePlayerBP::speed" : [ 1.0 ],
+					"yk.samplePlayerBP::switch" : [ 1 ],
+					"yk.samplePlayerBP::yk.pattr.samplePlayerBP" : [ -1 ],
+					"yk.samplePlayerBP::randCtrl::RCDirectionMode" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCDirectionProb" : [ 100 ],
+					"yk.samplePlayerBP::randCtrl::RCDirectionSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCFileProb" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopHoldProb" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopLenHigh" : [ 1000.0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopLenLow" : [ 20.0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopStartRangeHigh" : [ 1.0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopStartRangeLow" : [ 0.0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCOutChannelProbList" : [ 100, 0, 0, 0 ],
+					"yk.samplePlayerBP::randCtrl::RCOutChannelSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCPanHigh" : [ 1.0 ],
+					"yk.samplePlayerBP::randCtrl::RCPanHoldProb" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCPanLow" : [ -1.0 ],
+					"yk.samplePlayerBP::randCtrl::RCPanRampLenHigh" : [ 1000 ],
+					"yk.samplePlayerBP::randCtrl::RCPanRampLenLow" : [ 50 ],
+					"yk.samplePlayerBP::randCtrl::RCPanSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCRestHigh" : [ 1000 ],
+					"yk.samplePlayerBP::randCtrl::RCRestLen" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCRestLow" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCRestSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedHigh" : [ 2.0 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedHoldProb" : [ 100 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedLow" : [ 0.5 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedRampLenHigh" : [ 5000 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedRampLenLow" : [ 100 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedSwitch" : [ 0 ],
+					"yk.delay162chBP::yk.pattr.delay162chBP" : [ -1 ],
+					"yk.delay162chBP::ampDistr" : [ 0.0 ],
+					"yk.delay162chBP::fb" : [ 0.0 ],
+					"yk.delay162chBP::first" : [ 1000.0 ],
+					"yk.delay162chBP::gateThresh" : [ -60.0 ],
+					"yk.delay162chBP::inGain" : [ 1.0 ],
+					"yk.delay162chBP::mix" : [ 1.0 ],
+					"yk.delay162chBP::outGain" : [ 0.0 ],
+					"yk.delay162chBP::rand" : [ 0 ],
+					"yk.delay162chBP::randRange" : [ 20.0 ],
+					"yk.delay162chBP::range" : [ 2000.0 ],
+					"yk.delay162chBP::switch" : [ 1 ],
+					"yk.delay162chBP::taps" : [ 8 ],
+					"yk.delay162chBP::timeDistr" : [ 0.0 ],
+					"yk.delay162chBP::randCtrl::RC1stTapMax" : [ 5960.0 ],
+					"yk.delay162chBP::randCtrl::RC1stTapMin" : [ 40.0 ],
+					"yk.delay162chBP::randCtrl::RCFbMax" : [ 1.0 ],
+					"yk.delay162chBP::randCtrl::RCFbMin" : [ 0.0 ],
+					"yk.delay162chBP::randCtrl::RCRandRangeMax" : [ 12000.0 ],
+					"yk.delay162chBP::randCtrl::RCRandRangeMin" : [ 0.0 ],
+					"yk.delay162chBP::randCtrl::RCRangeMax" : [ 5960.0 ],
+					"yk.delay162chBP::randCtrl::RCRangeMin" : [ 40.0 ],
+					"yk.delay162chBP::randCtrl::RCTapsMax" : [ 16 ],
+					"yk.delay162chBP::randCtrl::RCTapsMin" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

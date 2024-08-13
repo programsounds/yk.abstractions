@@ -1,0 +1,57 @@
+{
+	"pattrstorage" : 	{
+		"name" : "yk.pattr.samplePlayerBPTest1",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "init",
+				"data" : 				{
+					"yk.samplePlayerBP::DCFilter" : [ 0 ],
+					"yk.samplePlayerBP::live.gain~" : [ 0.0 ],
+					"yk.samplePlayerBP::loop" : [ 1 ],
+					"yk.samplePlayerBP::outGain1-2" : [ 0.0 ],
+					"yk.samplePlayerBP::outGain3-4" : [ 0.0 ],
+					"yk.samplePlayerBP::outGain5-6" : [ 0.0 ],
+					"yk.samplePlayerBP::outGain7-8" : [ 0.0 ],
+					"yk.samplePlayerBP::pause" : [ 0 ],
+					"yk.samplePlayerBP::play" : [ 0 ],
+					"yk.samplePlayerBP::speed" : [ 1.0 ],
+					"yk.samplePlayerBP::switch" : [ 1 ],
+					"yk.samplePlayerBP::yk.pattr.samplePlayerBP" : [ -1 ],
+					"yk.samplePlayerBP::randCtrl::RCDirectionMode" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCDirectionProb" : [ 100 ],
+					"yk.samplePlayerBP::randCtrl::RCDirectionSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCFileProb" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopHoldProb" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopLenHigh" : [ 1000.0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopLenLow" : [ 20.0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopStartRangeHigh" : [ 1.0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopStartRangeLow" : [ 0.0 ],
+					"yk.samplePlayerBP::randCtrl::RCLoopSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCOutChannelProbList" : [ 100, 0, 0, 0 ],
+					"yk.samplePlayerBP::randCtrl::RCOutChannelSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCPanHigh" : [ 1.0 ],
+					"yk.samplePlayerBP::randCtrl::RCPanHoldProb" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCPanLow" : [ -1.0 ],
+					"yk.samplePlayerBP::randCtrl::RCPanRampLenHigh" : [ 1000 ],
+					"yk.samplePlayerBP::randCtrl::RCPanRampLenLow" : [ 50 ],
+					"yk.samplePlayerBP::randCtrl::RCPanSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCRestHigh" : [ 1000 ],
+					"yk.samplePlayerBP::randCtrl::RCRestLen" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCRestLow" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCRestSwitch" : [ 0 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedHigh" : [ 2.0 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedHoldProb" : [ 100 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedLow" : [ 0.5 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedRampLenHigh" : [ 5000 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedRampLenLow" : [ 100 ],
+					"yk.samplePlayerBP::randCtrl::RCSpeedSwitch" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

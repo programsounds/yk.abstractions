@@ -1,0 +1,23 @@
+{
+	"pattrstorage" : 	{
+		"name" : "yk.pattr.envelopeFollowerBPTest",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "init",
+				"data" : 				{
+					"yk.envelopeFollowerBP::inGain" : [ 0.0 ],
+					"yk.envelopeFollowerBP::interval" : [ 50 ],
+					"yk.envelopeFollowerBP::sharp" : [ -0.5 ],
+					"yk.envelopeFollowerBP::smooth" : [ 0 ],
+					"yk.envelopeFollowerBP::switch" : [ 1 ],
+					"yk.envelopeFollowerBP::yk.pattr.envelopeFollowerBP" : [ -1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
