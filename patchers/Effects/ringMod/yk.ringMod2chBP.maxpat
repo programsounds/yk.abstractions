@@ -40,6 +40,35 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"border" : 1.0,
+					"id" : "obj-95",
+					"ignoreclick" : 1,
+					"maxclass" : "textedit",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1105.0, 210.75, 23.5, 19.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 181.993578732013702, 20.900322645902634, 23.5, 19.5 ],
+					"readonly" : 1,
+					"rounded" : 0.0,
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1725.0, 900.0, 150.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -728,21 +757,6 @@
 					"tricolor" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ],
 					"trioncolor" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ],
 					"varname" : "outGain"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-25",
-					"ignoreclick" : 1,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1105.0, 208.0, 29.5, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 175.0, 20.0, 29.5, 25.0 ],
-					"textjustification" : 1
 				}
 
 			}
@@ -5336,8 +5350,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1082.0, 209.0, 21.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 155.0, 21.0, 21.0, 23.0 ],
 					"text" : "ID"
 				}
 
@@ -5534,9 +5546,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 531.0, 466.0, 38.763999938964844, 27.095977783203125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 19.0, 38.763999938964844, 27.095977783203125 ],
+					"presentation_rect" : [ 20.257235795259476, 17.041801542043686, 38.763999938964844, 27.095977783203125 ],
 					"rounded" : 2.0,
-					"style" : "YKStyle_TextButton_ModuleSwitch",
+					"style" : "YKStyle_textbutton_ModuleSwitch",
 					"text" : "RM",
 					"texton" : "RM",
 					"varname" : "switch"
@@ -5597,7 +5609,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 8.0, 211.184208512306213, 211.513155877590179 ],
 					"rounded" : 0,
-					"style" : "YKStyle_Panel_BpatcherBG"
+					"style" : "YKStyle_panel_BpatcherBG"
 				}
 
 			}
@@ -5956,7 +5968,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-95", 0 ],
 					"source" : [ "obj-99", 0 ]
 				}
 
@@ -6101,25 +6113,6 @@
 				"multi" : 0
 			}
 , 			{
-				"name" : "YKStyle_Panel_BpatcherBG",
-				"default" : 				{
-					"bgfillcolor" : 					{
-						"angle" : 270.0,
-						"autogradient" : 0.0,
-						"color" : [ 0.133333333333333, 0.152941176470588, 0.180392156862745, 1.0 ],
-						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
-						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-						"proportion" : 0.5,
-						"type" : "color"
-					}
-,
-					"color" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
 				"name" : "YKStyle_Patcher_02_12pt",
 				"default" : 				{
 					"accentcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ],
@@ -6150,7 +6143,26 @@
 				"multi" : 0
 			}
 , 			{
-				"name" : "YKStyle_TextButton_ModuleSwitch",
+				"name" : "YKStyle_panel_BpatcherBG",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.133333333333333, 0.152941176470588, 0.180392156862745, 1.0 ],
+						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "color"
+					}
+,
+					"color" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "YKStyle_textbutton_ModuleSwitch",
 				"default" : 				{
 					"accentcolor" : [ 0.831372549019608, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"bgcolor" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 0.0 ],

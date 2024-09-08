@@ -40,6 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"border" : 1.0,
+					"id" : "obj-133",
+					"ignoreclick" : 1,
+					"maxclass" : "textedit",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1498.750244000000066, 177.772463328752508, 23.5, 19.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 527.518865287303925, 23.054567813873291, 23.5, 19.5 ],
+					"readonly" : 1,
+					"rounded" : 0.0,
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 0.748201695884146 ],
 					"fontsize" : 10.0,
 					"id" : "obj-213",
@@ -56,25 +75,6 @@
 					"text" : "DC",
 					"texton" : "DC",
 					"varname" : "DCFilter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 1.0,
-					"id" : "obj-95",
-					"ignoreclick" : 1,
-					"maxclass" : "textedit",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1498.750244000000066, 176.022463328752508, 37.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 531.472062528133392, 22.842638790607452, 20.0, 20.0 ],
-					"readonly" : 1,
-					"rounded" : 0.0,
-					"textjustification" : 1
 				}
 
 			}
@@ -2321,7 +2321,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 19.289339423179626, 15.736040055751801, 52.931999206542969, 27.095977783203125 ],
 					"rounded" : 2.0,
-					"style" : "YKStyle_TextButton_ModuleSwitch",
+					"style" : "YKStyle_textbutton_ModuleSwitch",
 					"text" : "splay",
 					"texton" : "splay",
 					"usebgoncolor" : 1,
@@ -13157,7 +13157,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.629441320896149, 9.137055516242981, 560.406071662902832, 238.578671813011169 ],
 					"rounded" : 0,
-					"style" : "YKStyle_Panel_BpatcherBG"
+					"style" : "YKStyle_panel_BpatcherBG"
 				}
 
 			}
@@ -15061,7 +15061,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
+					"destination" : [ "obj-133", 0 ],
 					"source" : [ "obj-384", 0 ]
 				}
 
@@ -15993,25 +15993,6 @@
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
-				"name" : "YKStyle_Panel_BpatcherBG",
-				"default" : 				{
-					"bgfillcolor" : 					{
-						"angle" : 270.0,
-						"autogradient" : 0.0,
-						"color" : [ 0.133333333333333, 0.152941176470588, 0.180392156862745, 1.0 ],
-						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
-						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-						"proportion" : 0.5,
-						"type" : "color"
-					}
-,
-					"color" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
 				"name" : "YKStyle_Patcher_02_12pt",
 				"default" : 				{
 					"accentcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ],
@@ -16042,7 +16023,31 @@
 				"multi" : 0
 			}
 , 			{
-				"name" : "YKStyle_TextButton_ModuleSwitch",
+				"name" : "YKStyle_Textedit",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "YKStyle_panel_BpatcherBG",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.133333333333333, 0.152941176470588, 0.180392156862745, 1.0 ],
+						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "color"
+					}
+,
+					"color" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "YKStyle_textbutton_ModuleSwitch",
 				"default" : 				{
 					"accentcolor" : [ 0.831372549019608, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"bgcolor" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 0.0 ],
@@ -16054,11 +16059,6 @@
 					"selectioncolor" : [ 0.831372549019608, 0.364705882352941, 0.364705882352941, 1.0 ]
 				}
 ,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
-				"name" : "YKStyle_Textedit",
 				"parentstyle" : "",
 				"multi" : 0
 			}

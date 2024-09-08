@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 2,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1626.0, 1039.0 ],
+		"rect" : [ -493.0, -1353.0, 2492.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -45,7 +45,7 @@
 					"maxclass" : "live.line",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 941.006958000000054, 175.611968999999988, 47.924683000000002, 7.240892 ],
+					"patching_rect" : [ 2511.698547500000586, 381.83304499999997, 47.924683000000002, 7.240892 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.874638000000001, 201.517775999999998, 281.386103999999989, 10.240892000000002 ]
 				}
@@ -183,8 +183,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -872,8 +872,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2170,8 +2170,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2767,8 +2767,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 6,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7023,8 +7023,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7780,8 +7780,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8194,8 +8194,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8382,8 +8382,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 6,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9318,8 +9318,8 @@
 					"id" : "obj-225",
 					"maxclass" : "preset",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "preset", "int", "preset", "int", "" ],
 					"patching_rect" : [ 2226.452881000000161, 220.819503999999995, 101.065291999999999, 16.758158000000002 ],
 					"pattrstorage" : "yk.pattr.spatializerBP",
 					"presentation" : 1,
@@ -9457,8 +9457,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10101,8 +10101,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10321,12 +10321,8 @@
 								"box" : 								{
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"border_color" : [ 0.32549, 0.32549, 0.32549, 1.0 ],
-									"circle_color" : [ 0.0, 0.0, 0.0, 0.05098 ],
 									"coord_color" : [ 0.584314, 0.584314, 0.584314, 1.0 ],
-									"coord_font_name" : "Arial",
-									"grid" : 1,
 									"grid_color" : [ 0.0, 0.0, 0.0, 0.101961 ],
-									"gridunit_ae" : 8,
 									"hi_border_color" : [ 0.843137, 0.639216, 0.388235, 1.0 ],
 									"hi_grid_color" : [ 0.463055, 0.463126, 0.463021, 0.77 ],
 									"id" : "obj-137",
@@ -10334,7 +10330,6 @@
 									"line_color" : [ 1.0, 0.47451, 0.0, 0.5 ],
 									"maxclass" : "ambimonitor",
 									"name_color" : [ 0.25098, 0.25098, 0.25098, 1.0 ],
-									"number_font_name" : "Arial",
 									"number_font_size" : 9.0,
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -11796,8 +11791,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11998,8 +11993,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 6,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12117,8 +12112,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 6,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12705,8 +12700,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 6,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13053,7 +13048,7 @@
 										"speaker3Azi" : [ 45.0 ],
 										"speaker4Azi" : [ 90.0 ],
 										"speaker5Azi" : [ 135.0 ],
-										"speaker6Azi" : [ -180.0 ],
+										"speaker6Azi" : [ 180.0 ],
 										"speaker7Azi" : [ -135.0 ],
 										"speaker8Azi" : [ -90.0 ]
 									}
@@ -13308,8 +13303,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 2,
-											"revision" : 2,
+											"minor" : 6,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14830,21 +14825,15 @@
 , 							{
 								"box" : 								{
 									"border_color" : [ 0.32549, 0.32549, 0.32549, 1.0 ],
-									"circle_color" : [ 0.0, 0.0, 0.0, 0.05098 ],
 									"coord_color" : [ 0.584314, 0.584314, 0.584314, 1.0 ],
-									"coord_font_name" : "Arial",
-									"grid" : 1,
 									"grid_color" : [ 0.0, 0.0, 0.0, 0.101961 ],
-									"gridunit_ae" : 8,
 									"hi_border_color" : [ 0.843137, 0.639216, 0.388235, 1.0 ],
 									"hi_grid_color" : [ 0.463055, 0.463126, 0.463021, 0.77 ],
 									"id" : "obj-237",
 									"ignoreclick" : 1,
 									"line_color" : [ 1.0, 0.47451, 0.0, 0.5 ],
-									"lines" : 1,
 									"maxclass" : "ambimonitor",
 									"name_color" : [ 0.25098, 0.25098, 0.25098, 1.0 ],
-									"number_font_name" : "Arial",
 									"number_font_size" : 9.0,
 									"numbers" : 1,
 									"numinlets" : 1,
@@ -15560,8 +15549,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -19228,8 +19217,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -20224,8 +20213,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 2,
+							"minor" : 6,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -23747,20 +23736,14 @@
 , 			{
 				"box" : 				{
 					"border_color" : [ 0.32549, 0.32549, 0.32549, 1.0 ],
-					"circle_color" : [ 0.0, 0.0, 0.0, 0.05098 ],
 					"coord_color" : [ 0.584314, 0.584314, 0.584314, 1.0 ],
-					"coord_font_name" : "Arial",
-					"grid" : 1,
 					"grid_color" : [ 0.0, 0.0, 0.0, 0.101961 ],
-					"gridunit_ae" : 8,
 					"hi_border_color" : [ 0.843137, 0.639216, 0.388235, 1.0 ],
 					"hi_grid_color" : [ 0.463055, 0.463126, 0.463021, 0.77 ],
 					"id" : "obj-211",
 					"line_color" : [ 1.0, 0.47451, 0.0, 0.5 ],
-					"lines" : 1,
 					"maxclass" : "ambimonitor",
 					"name_color" : [ 0.25098, 0.25098, 0.25098, 1.0 ],
-					"number_font_name" : "Arial",
 					"number_font_size" : 9.0,
 					"numbers" : 1,
 					"numinlets" : 1,
@@ -25011,6 +24994,7 @@
 							"parameter_longname" : "live.gain~[10]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -26968,43 +26952,47 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "vbap.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "yk.gate2.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/gate2",
-				"patcherrelativepath" : "../../../Utillities/gate2",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/gate2",
+				"patcherrelativepath" : "../../Utillities/gate2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.poly.spatializer.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Modules/IO/spatializer/lib",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/IO/spatializer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.r.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/r",
-				"patcherrelativepath" : "../../../Utillities/r",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/r",
+				"patcherrelativepath" : "../../Utillities/r",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/thru",
-				"patcherrelativepath" : "../../../Utillities/thru",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/thru",
+				"patcherrelativepath" : "../../Utillities/thru",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.thru3.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/thru3",
-				"patcherrelativepath" : "../../../Utillities/thru3",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/thru3",
+				"patcherrelativepath" : "../../Utillities/thru3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.vbapModule.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Modules/IO/spatializer/lib",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/IO/spatializer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1

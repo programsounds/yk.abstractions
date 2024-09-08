@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 985.0, 837.0 ],
+		"rect" : [ -493.0, -1353.0, 2049.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"border" : 1.0,
+					"id" : "obj-95",
+					"ignoreclick" : 1,
+					"maxclass" : "textedit",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1056.470632314682007, 246.455892562866211, 23.5, 19.5 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 176.92307323217392, 19.838056266307831, 23.5, 19.5 ],
+					"readonly" : 1,
+					"rounded" : 0.0,
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
-					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1556.470653176307678, 825.882387399673462, 150.0, 122.0 ],
-					"text" : "\n\n\n\n\n\n"
+					"patching_rect" : [ 2067.619312584400177, 1312.381120562553406, 150.0, 23.0 ]
 				}
 
 			}
@@ -137,20 +154,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 51.764708042144775, 108.235298633575439, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"ignoreclick" : 1,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1056.470632314682007, 243.529421925544739, 29.5, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 170.718248426914215, 18.784532189369202, 29.5, 25.0 ]
 				}
 
 			}
@@ -5215,8 +5218,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1028.235337018966675, 244.705892562866211, 21.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 150.276257514953613, 19.889504671096802, 22.097376525402069, 23.0 ],
 					"text" : "ID"
 				}
 
@@ -5412,9 +5413,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 435.294135808944702, 462.352960467338562, 38.763999938964844, 27.095977783203125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.022100985050201, 17.679559707641602, 38.763999938964844, 27.095977783203125 ],
+					"presentation_rect" : [ 14.170040190219879, 16.194331645965576, 38.763999938964844, 27.095977783203125 ],
 					"rounded" : 2.0,
-					"style" : "YKStyle_TextButton_ModuleSwitch",
+					"style" : "YKStyle_textbutton_ModuleSwitch",
 					"text" : "RM",
 					"texton" : "RM",
 					"varname" : "switch"
@@ -5571,7 +5572,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.4198899269104, 6.629834890365601, 211.0, 213.0 ],
 					"rounded" : 0,
-					"style" : "YKStyle_Panel_BpatcherBG"
+					"style" : "YKStyle_panel_BpatcherBG"
 				}
 
 			}
@@ -5896,7 +5897,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
+					"destination" : [ "obj-95", 0 ],
 					"source" : [ "obj-99", 0 ]
 				}
 
@@ -6037,25 +6038,6 @@
 				"multi" : 0
 			}
 , 			{
-				"name" : "YKStyle_Panel_BpatcherBG",
-				"default" : 				{
-					"bgfillcolor" : 					{
-						"angle" : 270.0,
-						"autogradient" : 0.0,
-						"color" : [ 0.133333333333333, 0.152941176470588, 0.180392156862745, 1.0 ],
-						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
-						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-						"proportion" : 0.5,
-						"type" : "color"
-					}
-,
-					"color" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
 				"name" : "YKStyle_Patcher_01_13pt",
 				"default" : 				{
 					"accentcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ],
@@ -6116,7 +6098,26 @@
 				"multi" : 0
 			}
 , 			{
-				"name" : "YKStyle_TextButton_ModuleSwitch",
+				"name" : "YKStyle_panel_BpatcherBG",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.133333333333333, 0.152941176470588, 0.180392156862745, 1.0 ],
+						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "color"
+					}
+,
+					"color" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "YKStyle_textbutton_ModuleSwitch",
 				"default" : 				{
 					"accentcolor" : [ 0.831372549019608, 0.364705882352941, 0.364705882352941, 1.0 ],
 					"bgcolor" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 0.0 ],

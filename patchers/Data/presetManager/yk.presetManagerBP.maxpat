@@ -758,6 +758,8 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_01_13pt",
 						"tags" : ""
@@ -1946,11 +1948,10 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1182.858398000000079, 669.915221999999972, 222.0, 21.0 ],
+					"patching_rect" : [ 1182.858398000000079, 669.915221999999972, 223.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.941705077886581, 56.502244055271149, 284.9056556224823, 21.076233893632889 ],
+					"presentation_rect" : [ 30.941705077886581, 56.502244055271149, 285.0, 21.076233893632889 ],
 					"rounded" : 0.0,
-					"style" : "YKStyle_Textedit",
 					"tabmode" : 0,
 					"wordwrap" : 0
 				}
@@ -2144,7 +2145,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.457516670227051, 7.189542710781097, 326.797395944595337, 483.006551206111908 ],
 					"rounded" : 0,
-					"style" : "YKStyle_Panel_BpatcherBG"
+					"style" : "YKStyle_panel_BpatcherBG"
 				}
 
 			}
@@ -3142,25 +3143,6 @@
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
-				"name" : "YKStyle_Panel_BpatcherBG",
-				"default" : 				{
-					"bgfillcolor" : 					{
-						"angle" : 270.0,
-						"autogradient" : 0.0,
-						"color" : [ 0.133333333333333, 0.152941176470588, 0.180392156862745, 1.0 ],
-						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
-						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-						"proportion" : 0.5,
-						"type" : "color"
-					}
-,
-					"color" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ]
-				}
-,
-				"parentstyle" : "",
-				"multi" : 0
-			}
-, 			{
 				"name" : "YKStyle_Patcher_02_12pt",
 				"default" : 				{
 					"accentcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ],
@@ -3192,6 +3174,25 @@
 			}
 , 			{
 				"name" : "YKStyle_Textedit",
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "YKStyle_panel_BpatcherBG",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.133333333333333, 0.152941176470588, 0.180392156862745, 1.0 ],
+						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "color"
+					}
+,
+					"color" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ]
+				}
+,
 				"parentstyle" : "",
 				"multi" : 0
 			}
