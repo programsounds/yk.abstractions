@@ -74,7 +74,6 @@
 					"presentation_rect" : [ 531.472062528133392, 22.842638790607452, 20.0, 20.0 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
-					"text" : "5",
 					"textjustification" : 1
 				}
 
