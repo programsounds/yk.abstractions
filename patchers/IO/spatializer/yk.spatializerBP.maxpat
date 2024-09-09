@@ -7652,12 +7652,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.462745, 0.462745, 0.462745, 0.0 ],
-					"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
-					"fontface" : 1,
 					"fontlink" : 1,
-					"fontname" : "Nunito Sans 10pt ExtraBold",
-					"fontsize" : 14.0,
 					"id" : "obj-393",
 					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
@@ -7670,11 +7665,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 18.571430951356888, 9.523810744285583, 46.533998489379883, 27.095977783203125 ],
 					"rounded" : 2.0,
+					"style" : "YKStyle_textbutton_ModuleSwitch",
 					"text" : "spat",
-					"textcolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
 					"texton" : "spat",
-					"textoncolor" : [ 0.372549, 0.458824, 0.811765, 1.0 ],
-					"textovercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
 					"usebgoncolor" : 1,
 					"usetextovercolor" : 1,
 					"varname" : "switch"
@@ -7758,7 +7751,6 @@
 						"style" : "YKStyle_Patcher_01_13pt",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -7781,7 +7773,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 160.216156000000012, 692.630127000000016, 87.0, 39.0 ],
+									"patching_rect" : [ 160.216156000000012, 692.630127000000016, 90.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 24.999999761581421, 654.761898517608643, 124.0, 24.0 ],
 									"text" : "presentation mode"
@@ -7881,7 +7873,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.12397, 38.689467999999998, 732.0, 137.0 ],
+									"patching_rect" : [ 19.12397, 38.689467999999998, 732.0, 148.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 5,
 									"presentation_rect" : [ 26.0, 59.0, 860.0, 95.0 ],
@@ -7897,7 +7889,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 249.123962000000006, 98.689468000000005, 67.0, 39.0 ],
+									"patching_rect" : [ 249.123962000000006, 98.689468000000005, 67.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 264.285711765289307, 170.238093614578247, 84.0, 24.0 ],
 									"text" : "Description:"
@@ -7911,7 +7903,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 215.123962000000006, 116.689468000000005, 21.0, 383.0 ],
+									"patching_rect" : [ 215.123962000000006, 116.689468000000005, 21.0, 414.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 23,
 									"presentation_rect" : [ 217.857140779495239, 195.238093376159668, 20.0, 414.0 ],
@@ -7927,7 +7919,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.123962000000006, 98.689468000000005, 38.0, 39.0 ],
+									"patching_rect" : [ 169.123962000000006, 98.689468000000005, 38.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 163.095236539840698, 170.238093614578247, 42.0, 24.0 ],
 									"text" : "Type:"
@@ -7942,7 +7934,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 215.123962000000006, 98.689468000000005, 38.0, 39.0 ],
+									"patching_rect" : [ 215.123962000000006, 98.689468000000005, 38.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 217.857140779495239, 170.238093614578247, 44.0, 24.0 ],
 									"text" : "Pattr:"
@@ -7957,7 +7949,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.12397, 98.689468000000005, 56.0, 39.0 ],
+									"patching_rect" : [ 19.12397, 98.689468000000005, 56.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 26.0, 170.238093614578247, 66.0, 24.0 ],
 									"text" : "Symbols:"
@@ -7971,7 +7963,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.123962000000006, 116.689468000000005, 48.0, 399.0 ],
+									"patching_rect" : [ 169.123962000000006, 116.689468000000005, 48.0, 432.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 23,
 									"presentation_rect" : [ 163.095236539840698, 195.238093376159668, 53.0, 414.0 ],
@@ -7986,7 +7978,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.12397, 116.689468000000005, 152.0, 383.0 ],
+									"patching_rect" : [ 19.12397, 116.689468000000005, 152.0, 414.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 23,
 									"presentation_rect" : [ 26.0, 195.238093376159668, 136.0, 414.0 ],
@@ -8001,7 +7993,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 86.12397, 13.780205, 131.0, 39.0 ],
+									"patching_rect" : [ 86.12397, 13.780205, 131.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 172.619045972824097, 23.5, 169.0, 24.0 ],
 									"text" : "created by Yota Kobayashi"
@@ -8044,7 +8036,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 249.123962000000006, 116.689468000000005, 503.0, 383.0 ],
+									"patching_rect" : [ 249.123962000000006, 116.689468000000005, 503.0, 414.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 23,
 									"presentation_rect" : [ 264.285711765289307, 195.238093376159668, 501.0, 414.0 ],
@@ -8165,6 +8157,7 @@
 						"description" : "",
 						"digest" : "",
 						"fontname" : "Nunito Sans 10pt",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_01_13pt",
 						"tags" : ""
@@ -26946,6 +26939,22 @@
 					}
 ,
 					"color" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "YKStyle_textbutton_ModuleSwitch",
+				"default" : 				{
+					"accentcolor" : [ 0.831372549019608, 0.364705882352941, 0.364705882352941, 1.0 ],
+					"bgcolor" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 0.0 ],
+					"color" : [ 0.27843137254902, 0.541176470588235, 0.898039215686275, 1.0 ],
+					"elementcolor" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 0.0 ],
+					"fontface" : [ 0 ],
+					"fontname" : [ "Nunito Sans 10pt ExtraBold" ],
+					"fontsize" : [ 14.0 ],
+					"selectioncolor" : [ 0.831372549019608, 0.364705882352941, 0.364705882352941, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

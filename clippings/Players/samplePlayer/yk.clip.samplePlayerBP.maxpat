@@ -52,9 +52,9 @@
 					"name" : "yk.samplePlayerBP.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 12,
-					"offset" : [ -6.642670136638642, -7.704142726722718 ],
+					"offset" : [ -8.389395099826814, -7.267461485925675 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "bang", "int", "float", "" ],
-					"patching_rect" : [ 9.0, 7.0, 564.102569818496704, 241.025643467903137 ],
+					"patching_rect" : [ 9.0, 7.0, 560.262031942605972, 241.921407401561737 ],
 					"varname" : "yk.samplePlayerBP",
 					"viewvisibility" : 1
 				}
