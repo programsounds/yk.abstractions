@@ -3777,7 +3777,7 @@
 										"source4Dist" : [ 1.0 ],
 										"source5Azi" : [ 135.0 ],
 										"source5Dist" : [ 1.0 ],
-										"source6Azi" : [ 180.0 ],
+										"source6Azi" : [ -180.0 ],
 										"source6Dist" : [ 1.0 ],
 										"source7Azi" : [ -135.0 ],
 										"source7Dist" : [ 1.0 ],
@@ -6968,6 +6968,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_02_12pt",
 						"tags" : ""
@@ -7192,7 +7193,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2513.160889000000225, 358.48071299999998, 47.0, 20.0 ],
+					"patching_rect" : [ 2513.160889000000225, 358.48071299999998, 47.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 302.985069841146469, 74.129352062940598, 47.0, 23.0 ],
 					"text" : "swarm"
@@ -7205,7 +7206,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2513.160889000000225, 340.48071299999998, 52.0, 20.0 ],
+					"patching_rect" : [ 2513.160889000000225, 340.48071299999998, 52.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 249.253727406263351, 74.129352062940598, 52.0, 23.0 ],
 					"text" : "sources"
@@ -7313,7 +7314,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2513.160889000000225, 283.619751000000008, 38.0, 20.0 ],
+					"patching_rect" : [ 2513.160889000000225, 283.619751000000008, 38.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 262.686563014984131, 188.059698522090912, 35.0, 23.0 ],
 					"text" : "vol y"
@@ -7326,7 +7327,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2513.160889000000225, 265.619751000000008, 38.0, 20.0 ],
+					"patching_rect" : [ 2513.160889000000225, 265.619751000000008, 38.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 262.686563014984131, 159.701490014791489, 35.0, 23.0 ],
 					"text" : "vol x"
@@ -7340,7 +7341,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2513.160889000000225, 244.762085000000013, 57.0, 20.0 ],
+					"patching_rect" : [ 2513.160889000000225, 244.762085000000013, 57.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 191.542285531759262, 126.865669637918472, 58.0, 23.0 ],
 					"text" : "step size"
@@ -7354,7 +7355,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2513.160889000000225, 201.618988000000002, 53.0, 20.0 ],
+					"patching_rect" : [ 2513.160889000000225, 201.618988000000002, 53.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 195.024872541427612, 99.999998420476913, 54.0, 23.0 ],
 					"text" : "stability"
@@ -7368,7 +7369,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2513.160889000000225, 222.834595000000007, 40.0, 20.0 ],
+					"patching_rect" : [ 2513.160889000000225, 222.834595000000007, 40.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 256.218901425600052, 215.920394599437714, 41.0, 23.0 ],
 					"text" : "width"
@@ -7381,7 +7382,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2513.160889000000225, 319.619812000000024, 30.0, 20.0 ],
+					"patching_rect" : [ 2513.160889000000225, 319.619812000000024, 30.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 270.000034600496292, 43.809529423713684, 27.0, 23.0 ],
 					"text" : "out"
@@ -7394,7 +7395,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2513.160889000000225, 301.619751000000008, 23.0, 20.0 ],
+					"patching_rect" : [ 2513.160889000000225, 301.619751000000008, 23.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 195.714310795068741, 43.809529423713684, 19.0, 23.0 ],
 					"text" : "in"
@@ -7729,10 +7730,10 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 542.0, -917.0, 847.0, 582.0 ],
+						"rect" : [ 336.0, -926.0, 908.0, 631.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
-						"default_fontsize" : 12.0,
+						"default_fontsize" : 13.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Nunito Sans 10pt",
 						"gridonopen" : 1,
@@ -7754,9 +7755,10 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"style" : "YKStyle_Patcher_02_12pt",
+						"style" : "YKStyle_Patcher_01_13pt",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -7779,9 +7781,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 160.216156000000012, 692.630127000000016, 87.0, 31.0 ],
+									"patching_rect" : [ 160.216156000000012, 692.630127000000016, 87.0, 39.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 25.0, 625.0, 115.0, 23.0 ],
+									"presentation_rect" : [ 24.999999761581421, 654.761898517608643, 124.0, 24.0 ],
 									"text" : "presentation mode"
 								}
 
@@ -7797,7 +7799,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 160.216156000000012, 712.630127000000016, 20.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 25.0, 652.0, 83.0, 83.0 ]
+									"presentation_rect" : [ 24.999999761581421, 682.142850637435913, 83.0, 83.0 ]
 								}
 
 							}
@@ -7882,7 +7884,7 @@
 									"patching_rect" : [ 19.12397, 38.689467999999998, 732.0, 137.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 5,
-									"presentation_rect" : [ 26.0, 59.0, 794.0, 88.0 ],
+									"presentation_rect" : [ 26.0, 59.0, 860.0, 95.0 ],
 									"text" : "- This module allows for selectable IO channels, 8 or 16 ch for input and 4 or 8 ch for output.\n- Note that in 16ch input mode, the input channels n and n+1 are treated as stereo pair and spatialized together by controlling its centroid. \n  The centroid is equivalent to the corresponding source position (1 ~ 8). Their stereo width can be set by a parameter in degrees.\n- \"Home\" positions of sources, which they return to when home button is triggered, are the source positions set when controlMode = off (0).\n- A change in outputMode also initializes speaker positions to their default positions"
 								}
 
@@ -7897,7 +7899,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 249.123962000000006, 98.689468000000005, 67.0, 39.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 246.0, 155.0, 79.0, 23.0 ],
+									"presentation_rect" : [ 264.285711765289307, 170.238093614578247, 84.0, 24.0 ],
 									"text" : "Description:"
 								}
 
@@ -7909,10 +7911,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 215.123962000000006, 116.689468000000005, 21.0, 320.0 ],
+									"patching_rect" : [ 215.123962000000006, 116.689468000000005, 21.0, 383.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 23,
-									"presentation_rect" : [ 204.0, 180.0, 19.0, 383.0 ],
+									"presentation_rect" : [ 217.857140779495239, 195.238093376159668, 20.0, 414.0 ],
 									"text" : "x\nx\no\no\n\no\no\no\nx\no\nx\no\no\no\n\no\no\no\no\no\no\no\no"
 								}
 
@@ -7927,7 +7929,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 169.123962000000006, 98.689468000000005, 38.0, 39.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 153.0, 155.0, 39.0, 23.0 ],
+									"presentation_rect" : [ 163.095236539840698, 170.238093614578247, 42.0, 24.0 ],
 									"text" : "Type:"
 								}
 
@@ -7942,7 +7944,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 215.123962000000006, 98.689468000000005, 38.0, 39.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 204.0, 155.0, 41.0, 23.0 ],
+									"presentation_rect" : [ 217.857140779495239, 170.238093614578247, 44.0, 24.0 ],
 									"text" : "Pattr:"
 								}
 
@@ -7957,7 +7959,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 19.12397, 98.689468000000005, 56.0, 39.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 25.0, 155.0, 62.0, 23.0 ],
+									"presentation_rect" : [ 26.0, 170.238093614578247, 66.0, 24.0 ],
 									"text" : "Symbols:"
 								}
 
@@ -7969,10 +7971,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 169.123962000000006, 116.689468000000005, 48.0, 320.0 ],
+									"patching_rect" : [ 169.123962000000006, 116.689468000000005, 48.0, 399.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 23,
-									"presentation_rect" : [ 153.0, 180.0, 49.0, 383.0 ],
+									"presentation_rect" : [ 163.095236539840698, 195.238093376159668, 53.0, 414.0 ],
 									"text" : "bang\nvarious\nfloat\nint\n\nint\nint\nint\nbang\nfloat\nfloat\nfloat\nfloat\nbang\n\nint\nbang\nint\nfloat\nint\nfloat\nfloat\nfloat"
 								}
 
@@ -7984,10 +7986,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.12397, 116.689468000000005, 152.0, 320.0 ],
+									"patching_rect" : [ 19.12397, 116.689468000000005, 152.0, 383.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 23,
-									"presentation_rect" : [ 25.0, 180.0, 126.0, 383.0 ],
+									"presentation_rect" : [ 26.0, 195.238093376159668, 136.0, 414.0 ],
 									"text" : "spatInit\nspatPattrControl\nspatOutGain\nspatSwitch\n\nspatInputMode\nspatOutputMode\nspatIn[1~8]Switch\nspatSourceInit\nspatSourceAzi[1~8]\nspatSourceDist[1~8]\nspatSpeakerAzi[1~8]\nspatWidth\nspatSync\n\nspatControlMode\nspatHome\nspatStability\nspatStepSize\nspatSwarmStability\nspatSwarmStepSize\nspatVolumeX\nspatVolumeY"
 								}
 
@@ -7999,9 +8001,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 86.12397, 13.780205, 131.0, 34.0 ],
+									"patching_rect" : [ 86.12397, 13.780205, 131.0, 39.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 168.0, 24.0, 157.0, 23.0 ],
+									"presentation_rect" : [ 172.619045972824097, 23.5, 169.0, 24.0 ],
 									"text" : "created by Yota Kobayashi"
 								}
 
@@ -8042,10 +8044,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 249.123962000000006, 116.689468000000005, 503.0, 320.0 ],
+									"patching_rect" : [ 249.123962000000006, 116.689468000000005, 503.0, 383.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 23,
-									"presentation_rect" : [ 246.0, 180.0, 463.0, 383.0 ],
+									"presentation_rect" : [ 264.285711765289307, 195.238093376159668, 501.0, 414.0 ],
 									"text" : "initializes the parameters\nmessages to pattrstorage\noutput gain (dB) (-70. ~ 6.)\nDSP (inside poly~) on (1) | off (2)\n\ninput channels: 8ch (0) | 16ch (1)\noutput channels: 4ch (0) | 8ch (1)\nnth input channel: on (1) | off (0)\nrestore the default source positions\nsource azimuth (-180. ~ 180.)\nsource distance (0. ~ 1.)\nspeaker azimuth (-180. ~ 180.)\nstereo width of channel pairs in degrees (30. ~ 180.)\noutput all the speaker positions from message outlet for syncing\n\ncontrol mode: off (0), random (1), rotate (2), swarm-random (3), swarm-rotate (4)\nmove all the sources to the home positions\nstability of control in ms (500 ~ 2000)\ncontrol step size (-10. ~ 10.)\nswarm centroid stability of control in ms (500 ~ 2000)\nswarm centroid control step size (-10. ~ 10.)\nswarm volume x size (0. ~ 2.)\nswarm volume y size (0. ~ 2.)"
 								}
 
@@ -8096,6 +8098,36 @@
 							}
  ],
 						"styles" : [ 							{
+								"name" : "YKStyle_Patcher_01_13pt",
+								"default" : 								{
+									"accentcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ],
+									"bgcolor" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ],
+									"bgfillcolor" : 									{
+										"angle" : 270.0,
+										"autogradient" : 0.0,
+										"color" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+										"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+										"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+										"proportion" : 0.5,
+										"type" : "gradient"
+									}
+,
+									"color" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ],
+									"editing_bgcolor" : [ 0.109803921568627, 0.129411764705882, 0.156862745098039, 1.0 ],
+									"elementcolor" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+									"fontname" : [ "Nunito Sans 10pt" ],
+									"fontsize" : [ 13.0 ],
+									"locked_bgcolor" : [ 0.086274509803922, 0.105882352941176, 0.133333333333333, 1.0 ],
+									"patchlinecolor" : [ 0.674509803921569, 0.729411764705882, 0.780392156862745, 1.0 ],
+									"selectioncolor" : [ 0.27843137254902, 0.541176470588235, 0.898039215686275, 1.0 ],
+									"stripecolor" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+									"textcolor" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
 								"name" : "YKStyle_Patcher_02_12pt",
 								"default" : 								{
 									"accentcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ],
@@ -8132,8 +8164,9 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
 						"globalpatchername" : "",
-						"style" : "YKStyle_Patcher_02_12pt",
+						"style" : "YKStyle_Patcher_01_13pt",
 						"tags" : ""
 					}
 ,
@@ -9030,7 +9063,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1851.34619100000009, 169.455643000000009, 34.0, 22.0 ],
+					"patching_rect" : [ 1851.34619100000009, 169.455643000000009, 34.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 272.63681161403656, 313.930343300104141, 34.0, 25.0 ],
 					"text" : "read"
@@ -9045,7 +9078,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1896.381591999999955, 169.455643000000009, 33.0, 22.0 ],
+					"patching_rect" : [ 1896.381591999999955, 169.455643000000009, 33.0, 41.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 311.442781150341034, 313.930343300104141, 38.0, 25.0 ],
 					"text" : "write"
@@ -9112,7 +9145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2204.449219000000085, 195.210219999999993, 26.0, 20.0 ],
+					"patching_rect" : [ 2204.449219000000085, 195.210219999999993, 26.0, 23.0 ],
 					"text" : "ID"
 				}
 
@@ -9153,7 +9186,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2293.85229500000014, 131.535720999999995, 28.0, 22.0 ],
+					"patching_rect" : [ 2293.85229500000014, 131.535720999999995, 28.0, 41.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 213.930344879627228, 313.930343300104141, 30.0, 25.0 ],
 					"text" : "info"
@@ -15341,6 +15374,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
 						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.086274509803922, 0.105882352941176, 0.133333333333333, 1.0 ],
 						"style" : "YKStyle_Patcher_02_12pt",
