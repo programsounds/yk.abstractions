@@ -69,7 +69,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 33.333333015441895, 329.93196964263916, 105.680142545454544, 25.0 ],
+					"patching_rect" : [ 33.333333015441895, 329.93196964263916, 117.586269898848116, 25.0 ],
 					"text" : "yk.peakLim 1"
 				}
 
@@ -108,14 +108,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 682.312918663024902, 564.625844955444336, 330.0, 20.0 ],
+					"patching_rect" : [ 682.312918663024902, 564.625844955444336, 415.0, 25.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 588, 385 ],
 						"parameter_enable" : 0,

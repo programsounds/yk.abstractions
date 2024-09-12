@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -493.0, -1353.0, 2049.0, 1319.0 ],
+		"rect" : [ 34.0, 96.0, 1428.0, 837.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,26 +36,26 @@
 		"digest" : "",
 		"tags" : "",
 		"style" : "YKStyle_Patcher_02_12pt",
-		"subpatcher_template" : "",
+		"subpatcher_template" : "MyTemplate_01",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "@module", 3 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-5",
+					"id" : "obj-32",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "audioInputBP.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 9,
-					"offset" : [ -5.28571081161499, -4.85714191198349 ],
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 7.428571760654449, 6.85714316368103, 316.000014126300812, 330.857157647609711 ],
-					"varname" : "audioInputBP",
+					"name" : "demosound.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ -4.0, -3.0 ],
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 8.0, 9.0, 219.0, 89.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -63,14 +63,8 @@
  ],
 		"lines" : [  ],
 		"parameters" : 		{
-			"obj-5::obj-339" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-5::obj-370" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-5::obj-401" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-5::obj-432" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-5::obj-463" : [ "live.gain~[8]", "live.gain~", 0 ],
-			"obj-5::obj-494" : [ "live.gain~[9]", "live.gain~", 0 ],
-			"obj-5::obj-526" : [ "live.gain~[10]", "live.gain~", 0 ],
-			"obj-5::obj-72" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-32::obj-21::obj-6" : [ "live.tab[3]", "live.tab[1]", 0 ],
+			"obj-32::obj-35" : [ "[5]", "Level", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -84,66 +78,39 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Untitled.txt",
-				"bootpath" : "~/Data/GoogleDrive/RnD/Programming/Max/Externals/UBCToolbox_1.07/Modules/Players/boxcar/lib",
-				"patcherrelativepath" : "../../../../../../Data/GoogleDrive/RnD/Programming/Max/Externals/UBCToolbox_1.07/Modules/Players/boxcar/lib",
+				"name" : "demosound.maxpat",
+				"bootpath" : "C74:/help/msp",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "interfacecolor.js",
+				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audioInputBP.maxpat",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/IO/audioInput",
-				"patcherrelativepath" : "../../../patchers/IO/audioInput",
-				"type" : "JSON",
+				"name" : "random.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "yk.DCFilter.maxpat",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/DCFilter",
-				"patcherrelativepath" : "../../../patchers/Utillities/DCFilter",
-				"type" : "JSON",
+				"name" : "saw.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "yk.gen.mix.gendsp",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/mix/lib",
-				"patcherrelativepath" : "../../../patchers/Utillities/mix/lib",
-				"type" : "gDSP",
+				"name" : "sine.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "yk.gen.ramp.gendsp",
-				"bootpath" : "~/Dev/Max/yk.abstractions/code/ramp",
-				"patcherrelativepath" : "../../../code/ramp",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.mix.maxpat",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/mix",
-				"patcherrelativepath" : "../../../patchers/Utillities/mix",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.noiseGate.maxpat",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/noiseGate",
-				"patcherrelativepath" : "../../../patchers/Utillities/noiseGate",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.r.maxpat",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/r",
-				"patcherrelativepath" : "../../../patchers/Utillities/r",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.thru3.maxpat",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/thru3",
-				"patcherrelativepath" : "../../../patchers/Utillities/thru3",
-				"type" : "JSON",
+				"name" : "square.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
  ],
