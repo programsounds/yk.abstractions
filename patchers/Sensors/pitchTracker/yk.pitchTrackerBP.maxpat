@@ -1418,7 +1418,6 @@
 				"box" : 				{
 					"fontlink" : 1,
 					"id" : "obj-146",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -1432,8 +1431,6 @@
 					"style" : "YKStyle_textbutton_ModuleSwitch",
 					"text" : "pitchTracker",
 					"texton" : "pitchTracker",
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "switch"
 				}
 

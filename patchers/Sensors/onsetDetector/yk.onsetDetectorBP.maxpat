@@ -201,7 +201,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1323.383910999999898, 183.778350999999986, 58.0, 18.0 ],
+					"patching_rect" : [ 1323.383910999999898, 183.778350999999986, 58.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 40.95744651556015, 149.999998927116394, 64.0, 20.0 ],
 					"text" : "min power"
@@ -500,7 +500,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1323.383910999999898, 220.311858999999998, 30.0, 18.0 ],
+					"patching_rect" : [ 1323.383910999999898, 220.311858999999998, 30.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 73.936169683933258, 48.936169862747192, 31.0, 20.0 ],
 					"text" : "gain"
@@ -590,7 +590,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1323.383910999999898, 202.311858999999998, 63.0, 18.0 ],
+					"patching_rect" : [ 1323.383910999999898, 202.311858999999998, 63.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.106382727622986, 175.531913638114929, 70.0, 20.0 ],
 					"text" : "min interval"
@@ -605,7 +605,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1323.383910999999898, 147.778350999999986, 60.0, 18.0 ],
+					"patching_rect" : [ 1323.383910999999898, 147.778350999999986, 60.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 37.765957176685333, 99.468084394931793, 67.0, 20.0 ],
 					"text" : "dist. thresh"
@@ -1529,7 +1529,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1323.383910999999898, 129.778350999999986, 62.0, 18.0 ],
+					"patching_rect" : [ 1323.383910999999898, 129.778350999999986, 62.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.170212507247925, 73.936169683933258, 69.0, 20.0 ],
 					"text" : "freq. thresh"
@@ -1544,7 +1544,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1323.383910999999898, 165.778350999999986, 44.0, 18.0 ],
+					"patching_rect" : [ 1323.383910999999898, 165.778350999999986, 44.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.914893209934235, 124.468084216117859, 48.0, 20.0 ],
 					"text" : "smooth"
@@ -2214,6 +2214,8 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_01_13pt",
 						"tags" : ""
@@ -2415,7 +2417,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 727.718201000000022, 84.127326999999994, 33.0, 20.0 ],
+					"patching_rect" : [ 727.718201000000022, 84.127326999999994, 33.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 91.489361047744751, 210.638296365737915, 33.0, 22.0 ],
 					"text" : "read"
@@ -2431,7 +2433,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 772.753601000000003, 84.127326999999994, 33.0, 20.0 ],
+					"patching_rect" : [ 772.753601000000003, 84.127326999999994, 33.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 126.595743775367737, 210.638296365737915, 34.0, 22.0 ],
 					"text" : "write"
@@ -2527,7 +2529,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1041.101439999999911, 121.034820999999994, 22.0, 18.0 ],
+					"patching_rect" : [ 1041.101439999999911, 121.034820999999994, 22.0, 20.0 ],
 					"text" : "ID"
 				}
 
@@ -2681,7 +2683,6 @@
 					"fontlink" : 1,
 					"fontname" : "Arial Bold",
 					"id" : "obj-37",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -2697,8 +2698,6 @@
 					"texton" : "onsetDetector",
 					"textoncolor" : [ 0.372549, 0.458824, 0.811765, 1.0 ],
 					"textovercolor" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "switch"
 				}
 

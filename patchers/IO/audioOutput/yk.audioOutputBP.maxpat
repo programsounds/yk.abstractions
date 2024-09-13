@@ -6833,7 +6833,6 @@
 				"box" : 				{
 					"fontlink" : 1,
 					"id" : "obj-69",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -6847,8 +6846,6 @@
 					"style" : "YKStyle_textbutton_ModuleSwitch",
 					"text" : "dac",
 					"texton" : "dac",
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "switch"
 				}
 
@@ -8087,6 +8084,7 @@
 						"gain4" : [ 0.0 ],
 						"gain5" : [ 0.0 ],
 						"gain6" : [ 0.0 ],
+						"gain7" : [ 0.0 ],
 						"gain8" : [ 0.0 ],
 						"out1" : [ 1.0 ],
 						"out2" : [ 1.0 ],
