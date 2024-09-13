@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -493.0, -1353.0, 2492.0, 1319.0 ],
+		"rect" : [ -493.0, -1353.0, 2049.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,15 +40,15 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-68",
+					"id" : "obj-6",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 794.504516999999964, 67.334732000000002, 24.999999582767487, 26.0 ],
+					"patching_rect" : [ 794.504516999999964, 69.506728798151016, 24.36798095703125, 24.36798095703125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 62.224300298164366, 170.213361945060399, 26.0, 26.0 ],
+					"presentation_rect" : [ 62.977103590965271, 170.992378234863281, 24.36798095703125, 24.36798095703125 ],
 					"rounded" : 40.0,
 					"text" : "i"
 				}
@@ -2104,7 +2104,8 @@
 					"patching_rect" : [ 369.718201000000022, 104.127326999999994, 34.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 91.240207195281982, 171.029371466544774, 34.0, 25.0 ],
-					"text" : "read"
+					"text" : "read",
+					"textjustification" : 1
 				}
 
 			}
@@ -2119,7 +2120,8 @@
 					"patching_rect" : [ 414.753601000000003, 104.127326999999994, 33.0, 41.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 129.030903518199921, 171.029371466544774, 38.0, 25.0 ],
-					"text" : "write"
+					"text" : "write",
+					"textjustification" : 1
 				}
 
 			}
@@ -2677,7 +2679,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-128", 0 ],
-					"source" : [ "obj-68", 0 ]
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}

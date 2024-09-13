@@ -40,15 +40,15 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-68",
+					"id" : "obj-2",
 					"maxclass" : "textbutton",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 715.504516999999964, 65.758753746747971, 24.999999582767487, 26.0 ],
+					"patching_rect" : [ 715.504516999999964, 67.346941083669662, 24.36798095703125, 24.36798095703125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 62.474153518676758, 170.739156846460446, 26.0, 26.0 ],
+					"presentation_rect" : [ 63.410464736888883, 171.882014040407284, 24.36798095703125, 24.36798095703125 ],
 					"rounded" : 40.0,
 					"text" : "i"
 				}
@@ -1090,7 +1090,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.338160999999999, 49.451053999999999, 168.0, 80.0 ],
+									"patching_rect" : [ 8.338160999999999, 49.451053999999999, 168.0, 148.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 23.0, 82.0, 672.069487273693085, 42.0 ],
@@ -1123,10 +1123,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 20.854476999999999, 90.601723000000007, 170.0, 68.0 ],
+									"patching_rect" : [ 20.854476999999999, 90.601723000000007, 170.0, 148.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 23.0, 126.0, 672.269669651985168, 42.0 ],
+									"presentation_rect" : [ 23.0, 126.0, 674.0, 42.0 ],
 									"text" : "The algorithm uses the math equation from the paper, Mikhail Malt and Emmanuel Jourdan. Zsa.Descriptors: a library for real-time descriptors analysis, SMC 2008) as shown below."
 								}
 
@@ -1138,7 +1138,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 151.504791000000012, 96.242797999999993, 143.0, 56.0 ],
+									"patching_rect" : [ 151.504791000000012, 96.242797999999993, 143.0, 113.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
 									"presentation_rect" : [ 23.0, 261.0, 335.0, 60.0 ],
@@ -1153,7 +1153,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.031048999999999, 41.451053999999999, 168.0, 31.0 ],
+									"patching_rect" : [ 8.031048999999999, 41.451053999999999, 168.0, 77.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 23.0, 59.0, 459.0, 24.0 ],
 									"text" : "A feature extraction module for the spectral slope of the incoming signal. "
@@ -1182,7 +1182,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 145.666167999999999, 157.183181999999988, 21.0, 92.0 ],
+									"patching_rect" : [ 145.666167999999999, 157.183181999999988, 21.0, 131.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 7,
 									"presentation_rect" : [ 191.0, 353.0, 20.0, 131.0 ],
@@ -1242,7 +1242,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 179.666167999999999, 157.183181999999988, 314.0, 105.0 ],
+									"patching_rect" : [ 179.666167999999999, 157.183181999999988, 314.0, 184.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 7,
 									"presentation_rect" : [ 236.0, 353.0, 460.0, 131.0 ],
@@ -1257,7 +1257,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 99.166175999999993, 157.183181999999988, 48.0, 92.0 ],
+									"patching_rect" : [ 99.166175999999993, 157.183181999999988, 48.0, 148.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 7,
 									"presentation_rect" : [ 136.0, 353.0, 53.0, 131.0 ],
@@ -1272,7 +1272,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.166175000000001, 157.183181999999988, 93.0, 92.0 ],
+									"patching_rect" : [ 10.166175000000001, 157.183181999999988, 93.0, 148.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 7,
 									"presentation_rect" : [ 23.0, 353.0, 110.0, 131.0 ],
@@ -1302,7 +1302,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 151.258362000000005, 358.713622999999984, 87.0, 31.0 ],
+									"patching_rect" : [ 151.258362000000005, 358.713622999999984, 90.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 23.0, 514.0, 124.0, 24.0 ],
 									"text" : "presentation mode"
@@ -1415,7 +1415,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 219.721465999999992, 11.887819, 168.0, 19.0 ],
+									"patching_rect" : [ 219.721465999999992, 11.887819, 168.0, 42.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 526.0, 21.0, 169.0, 24.0 ],
 									"text" : "created by Yota Kobayashi"
@@ -1724,7 +1724,8 @@
 					"patching_rect" : [ 290.718201000000022, 104.127326999999994, 34.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 91.617011964321136, 170.739156846460446, 34.0, 25.0 ],
-					"text" : "read"
+					"text" : "read",
+					"textjustification" : 1
 				}
 
 			}
@@ -1739,7 +1740,8 @@
 					"patching_rect" : [ 335.753601000000003, 104.127326999999994, 33.0, 41.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 128.188442170619965, 170.739156846460446, 38.0, 25.0 ],
-					"text" : "write"
+					"text" : "write",
+					"textjustification" : 1
 				}
 
 			}
@@ -2155,6 +2157,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-128", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -2281,13 +2290,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-145", 0 ],
 					"source" : [ "obj-525", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-128", 0 ],
-					"source" : [ "obj-68", 0 ]
 				}
 
 			}
