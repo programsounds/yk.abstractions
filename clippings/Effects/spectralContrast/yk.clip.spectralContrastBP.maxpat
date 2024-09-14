@@ -3,19 +3,19 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 6,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 96.0, 1040.0, 806.0 ],
+		"rect" : [ -493.0, -1353.0, 2049.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
+		"default_fontname" : "Nunito Sans 10pt",
 		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 1,
@@ -35,14 +35,14 @@
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
-		"style" : "",
+		"style" : "YKStyle_Patcher_02_12pt",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bgcolor" : [ 0.92148745059967, 0.921331286430359, 0.926341414451599, 1.0 ],
-					"bgmode" : 2,
-					"border" : 1,
+					"bgmode" : 0,
+					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -53,9 +53,9 @@
 					"name" : "yk.spectralContrastBP.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"offset" : [ -0.253944000000001, -5.005259000000001 ],
+					"offset" : [ -16.273361256116868, -14.228559844430924 ],
 					"outlettype" : [ "signal", "", "" ],
-					"patching_rect" : [ 14.0, 12.0, 207.751312000000013, 252.497375000000034 ],
+					"patching_rect" : [ 12.0, 10.0, 246.601938366889954, 325.728150874376297 ],
 					"varname" : "yk.spectralContrastBP",
 					"viewvisibility" : 1
 				}
@@ -74,125 +74,156 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "yk.>p.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/legacy/>p",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/legacy/>p",
 				"patcherrelativepath" : "../../../patchers/Utillities/legacy/>p",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.gen.mix.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/mix/lib",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/mix/lib",
 				"patcherrelativepath" : "../../../patchers/Utillities/mix/lib",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.gen.ramp.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/code/ramp",
+				"bootpath" : "~/Dev/Max/yk.abstractions/code/ramp",
 				"patcherrelativepath" : "../../../code/ramp",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.logScale.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/logScale",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/logScale",
 				"patcherrelativepath" : "../../../patchers/Utillities/logScale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.mix.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/mix",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/mix",
 				"patcherrelativepath" : "../../../patchers/Utillities/mix",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.numSort.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/numSort",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/numSort",
 				"patcherrelativepath" : "../../../patchers/Utillities/numSort",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.pfft.spectralContrast.extIn-extOut.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Modules/Effects/spectralContrast/lib",
-				"patcherrelativepath" : "../../../patchers/Modules/Effects/spectralContrast/lib",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Effects/spectralContrast/lib",
+				"patcherrelativepath" : "../../../patchers/Effects/spectralContrast/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.pfft.spectralContrast.extIn-intOut.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Modules/Effects/spectralContrast/lib",
-				"patcherrelativepath" : "../../../patchers/Modules/Effects/spectralContrast/lib",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Effects/spectralContrast/lib",
+				"patcherrelativepath" : "../../../patchers/Effects/spectralContrast/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.pfft.spectralContrast.intIn-extOut.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Modules/Effects/spectralContrast/lib",
-				"patcherrelativepath" : "../../../patchers/Modules/Effects/spectralContrast/lib",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Effects/spectralContrast/lib",
+				"patcherrelativepath" : "../../../patchers/Effects/spectralContrast/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.pfft.spectralContrast.intIn-intOut.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Modules/Effects/spectralContrast/lib",
-				"patcherrelativepath" : "../../../patchers/Modules/Effects/spectralContrast/lib",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Effects/spectralContrast/lib",
+				"patcherrelativepath" : "../../../patchers/Effects/spectralContrast/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.r.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/r",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/r",
 				"patcherrelativepath" : "../../../patchers/Utillities/r",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.randomFloat.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/randomFloat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/randomFloat",
 				"patcherrelativepath" : "../../../patchers/Utillities/randomFloat",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.randomLine.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/randomLine",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/randomLine",
 				"patcherrelativepath" : "../../../patchers/Utillities/randomLine",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.spectralContrast.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Modules/Effects/spectralContrast/lib",
-				"patcherrelativepath" : "../../../patchers/Modules/Effects/spectralContrast/lib",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Effects/spectralContrast/lib",
+				"patcherrelativepath" : "../../../patchers/Effects/spectralContrast/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.spectralContrastBP.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Modules/Effects/spectralContrast",
-				"patcherrelativepath" : "../../../patchers/Modules/Effects/spectralContrast",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Effects/spectralContrast",
+				"patcherrelativepath" : "../../../patchers/Effects/spectralContrast",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.sr.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/sr",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/sr",
 				"patcherrelativepath" : "../../../patchers/Utillities/sr",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.thru3.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/yk.abstractions/patchers/Utillities/thru3",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/thru3",
 				"patcherrelativepath" : "../../../patchers/Utillities/thru3",
 				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "YKStyle_Patcher_02_12pt",
+				"default" : 				{
+					"accentcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ],
+					"bgcolor" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ],
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "gradient"
+					}
+,
+					"color" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ],
+					"editing_bgcolor" : [ 0.109803921568627, 0.129411764705882, 0.156862745098039, 1.0 ],
+					"elementcolor" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+					"fontname" : [ "Nunito Sans 10pt" ],
+					"fontsize" : [ 12.0 ],
+					"locked_bgcolor" : [ 0.086274509803922, 0.105882352941176, 0.133333333333333, 1.0 ],
+					"patchlinecolor" : [ 0.674509803921569, 0.729411764705882, 0.780392156862745, 1.0 ],
+					"selectioncolor" : [ 0.27843137254902, 0.541176470588235, 0.898039215686275, 1.0 ],
+					"stripecolor" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+					"textcolor" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+ ]
 	}
 
 }
