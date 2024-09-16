@@ -1188,7 +1188,6 @@
 						"style" : "YKStyle_Patcher_02_12pt",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1214,7 +1213,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1839.284423999999944, 255.805099000000013, 269.0, 20.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1265,7 +1264,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1281.689331000000038, 256.805115000000001, 269.0, 20.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1316,7 +1315,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 722.336913999999979, 256.805084000000022, 269.0, 20.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1367,7 +1366,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 166.284392999999994, 256.805084000000022, 269.0, 20.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2509,7 +2508,7 @@
 									"patching_rect" : [ 358.784393000000023, 543.183104999999955, 41.0, 23.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 224.0, 141.0, 43.0, 23.0 ],
-									"text" : "1.70"
+									"text" : "1.00"
 								}
 
 							}
@@ -2550,7 +2549,7 @@
 									"patching_rect" : [ 84.784392999999994, 543.183104999999955, 41.0, 23.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 224.0, 232.0, 43.0, 23.0 ],
-									"text" : "-0.75"
+									"text" : "0.00"
 								}
 
 							}
@@ -2593,7 +2592,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 345.284393000000023, 474.892395000000022, 274.0, 20.0 ],
-									"restore" : [ 1.7 ],
+									"restore" : [ 1.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2615,7 +2614,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 71.284392999999994, 474.892395000000022, 272.0, 20.0 ],
-									"restore" : [ -0.751 ],
+									"restore" : [ 0.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2651,7 +2650,7 @@
 									"patching_rect" : [ 71.284392999999994, 626.472899999999981, 180.0, 92.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 44.0, 151.0, 180.0, 92.0 ],
-									"setminmax" : [ -0.750999987125397, 1.700000047683716 ],
+									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 5
 								}
 
@@ -2762,7 +2761,7 @@
 									"patching_rect" : [ 358.784393000000023, 222.815246999999999, 41.0, 23.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 224.0, 28.0, 43.0, 23.0 ],
-									"text" : "0.68"
+									"text" : "1.00"
 								}
 
 							}
@@ -2846,7 +2845,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 345.284393000000023, 154.524536000000012, 268.0, 20.0 ],
-									"restore" : [ 0.68 ],
+									"restore" : [ 1.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2947,7 +2946,7 @@
 									"patching_rect" : [ 71.284392999999994, 332.873260000000016, 180.0, 92.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 44.0, 38.0, 180.0, 92.0 ],
-									"setminmax" : [ 0.0, 0.680000007152557 ],
+									"setminmax" : [ 0.0, 1.0 ],
 									"setstyle" : 5
 								}
 
@@ -3706,6 +3705,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_02_12pt",
 						"tags" : ""
@@ -6135,7 +6135,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1155.458861999999954, 246.550690000000003, 293.0, 20.0 ],
-									"restore" : [ 0.63 ],
+									"restore" : [ 0.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -6542,27 +6542,27 @@
 									"restore" : 									{
 										"RCScaleFactor1Curve" : [ 0.0 ],
 										"RCScaleFactor1Hold" : [ 0 ],
-										"RCScaleFactor1Max" : [ 0.4 ],
-										"RCScaleFactor1Min" : [ 0.22 ],
-										"RCScaleFactor1Period" : [ 9888 ],
+										"RCScaleFactor1Max" : [ 1.0 ],
+										"RCScaleFactor1Min" : [ 0.0 ],
+										"RCScaleFactor1Period" : [ 2000 ],
 										"RCScaleFactor1Switch" : [ 0 ],
 										"RCScaleFactor2Curve" : [ 0.0 ],
 										"RCScaleFactor2Hold" : [ 0 ],
-										"RCScaleFactor2Max" : [ 0.0 ],
+										"RCScaleFactor2Max" : [ 1.0 ],
 										"RCScaleFactor2Min" : [ 0.0 ],
-										"RCScaleFactor2Period" : [ 0 ],
+										"RCScaleFactor2Period" : [ 2000 ],
 										"RCScaleFactor2Switch" : [ 0 ],
 										"RCScaleFactor3Curve" : [ 0.0 ],
 										"RCScaleFactor3Hold" : [ 0 ],
-										"RCScaleFactor3Max" : [ 0.0 ],
+										"RCScaleFactor3Max" : [ 1.0 ],
 										"RCScaleFactor3Min" : [ 0.0 ],
-										"RCScaleFactor3Period" : [ 0 ],
+										"RCScaleFactor3Period" : [ 2000 ],
 										"RCScaleFactor3Switch" : [ 0 ],
 										"RCScaleFactor4Curve" : [ 0.0 ],
 										"RCScaleFactor4Hold" : [ 0 ],
-										"RCScaleFactor4Max" : [ 0.0 ],
+										"RCScaleFactor4Max" : [ 1.0 ],
 										"RCScaleFactor4Min" : [ 0.0 ],
-										"RCScaleFactor4Period" : [ 0 ],
+										"RCScaleFactor4Period" : [ 2000 ],
 										"RCScaleFactor4Switch" : [ 0 ]
 									}
 ,
@@ -8540,6 +8540,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_02_12pt",
 						"tags" : ""
@@ -12766,7 +12767,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 392.0, 187.134246999999988, 122.0, 20.0 ],
 					"restore" : 					{
-						"clipSwitch1" : [ 1 ],
+						"clipSwitch1" : [ 0 ],
 						"clipSwitch2" : [ 0 ],
 						"clipSwitch3" : [ 0 ],
 						"clipSwitch4" : [ 0 ],
@@ -12778,7 +12779,7 @@
 						"dest2" : [ "" ],
 						"dest3" : [ "" ],
 						"dest4" : [ "" ],
-						"inMax1" : [ 0.68 ],
+						"inMax1" : [ 1.0 ],
 						"inMax2" : [ 1.0 ],
 						"inMax3" : [ 1.0 ],
 						"inMax4" : [ 1.0 ],
@@ -12786,7 +12787,7 @@
 						"inMin2" : [ 0.0 ],
 						"inMin3" : [ 0.0 ],
 						"inMin4" : [ 0.0 ],
-						"interpTime1" : [ 92 ],
+						"interpTime1" : [ 0 ],
 						"interpTime2" : [ 0 ],
 						"interpTime3" : [ 0 ],
 						"interpTime4" : [ 0 ],
@@ -12794,26 +12795,26 @@
 						"inv2" : [ 0 ],
 						"inv3" : [ 0 ],
 						"inv4" : [ 0 ],
-						"mean1" : [ 57 ],
+						"mean1" : [ 1 ],
 						"mean2" : [ 1 ],
 						"mean3" : [ 1 ],
 						"mean4" : [ 1 ],
-						"outMax1" : [ 1.7 ],
+						"outMax1" : [ 1.0 ],
 						"outMax2" : [ 1.0 ],
 						"outMax3" : [ 1.0 ],
 						"outMax4" : [ 1.0 ],
-						"outMin1" : [ -0.751 ],
+						"outMin1" : [ 0.0 ],
 						"outMin2" : [ 0.0 ],
 						"outMin3" : [ 0.0 ],
 						"outMin4" : [ 0.0 ],
-						"scaleFactor1" : [ 0.63 ],
+						"scaleFactor1" : [ 0.0 ],
 						"scaleFactor2" : [ 0.0 ],
 						"scaleFactor3" : [ 0.0 ],
 						"scaleFactor4" : [ 0.0 ],
-						"switch1" : [ 1 ],
-						"switch2" : [ 1 ],
-						"switch3" : [ 1 ],
-						"switch4" : [ 1 ]
+						"switch1" : [ 0 ],
+						"switch2" : [ 0 ],
+						"switch3" : [ 0 ],
+						"switch4" : [ 0 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
@@ -13609,6 +13610,8 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_01_13pt",
 						"tags" : ""
@@ -16609,13 +16612,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "yk.>p.maxpat",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/legacy/>p",
-				"patcherrelativepath" : "../../Utillities/legacy/>p",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "yk.listDel.maxpat",
 				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/listDel",
 				"patcherrelativepath" : "../../Utillities/listDel",
@@ -16633,6 +16629,13 @@
 				"name" : "yk.numSort.maxpat",
 				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/numSort",
 				"patcherrelativepath" : "../../Utillities/numSort",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.pass.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/pass",
+				"patcherrelativepath" : "../../Utillities/pass",
 				"type" : "JSON",
 				"implicit" : 1
 			}

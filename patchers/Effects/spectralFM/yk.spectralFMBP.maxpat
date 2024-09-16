@@ -106,6 +106,7 @@
 					"presentation_rect" : [ 235.0, 26.0, 23.5, 19.5 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
+					"text" : "0",
 					"textjustification" : 1
 				}
 
@@ -1435,7 +1436,6 @@
 						"style" : "YKStyle_Patcher_02_12pt",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"format" : 6,
@@ -4781,9 +4781,9 @@
 									"restore" : 									{
 										"RCCarrierFreqCurve" : [ 0.0 ],
 										"RCCarrierFreqHold" : [ 0 ],
-										"RCCarrierFreqMax" : [ 2000.0 ],
+										"RCCarrierFreqMax" : [ 1000.0 ],
 										"RCCarrierFreqMin" : [ 200.0 ],
-										"RCCarrierFreqPeriod" : [ 10000 ],
+										"RCCarrierFreqPeriod" : [ 4000 ],
 										"RCCarrierFreqSwitch" : [ 0 ],
 										"RCHarmRatioCurve" : [ 0.0 ],
 										"RCHarmRatioHold" : [ 0 ],
@@ -7205,6 +7205,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_02_12pt",
 						"tags" : ""
@@ -9011,7 +9012,6 @@
 						"bypass" : [ 0 ],
 						"carrierFreq" : [ 31.0 ],
 						"harmRatio" : [ 11.0 ],
-						"inGain" : [ 1.0 ],
 						"mix" : [ 1.0 ],
 						"modIndex" : [ 20.0 ],
 						"mode" : [ 0 ],
@@ -9759,6 +9759,8 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_01_13pt",
 						"tags" : ""
@@ -10565,13 +10567,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "yk.>p.maxpat",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/legacy/>p",
-				"patcherrelativepath" : "../../Utillities/legacy/>p",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "yk.gen.mix.gendsp",
 				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/mix/lib",
 				"patcherrelativepath" : "../../Utillities/mix/lib",
@@ -10603,6 +10598,13 @@
 				"name" : "yk.numSort.maxpat",
 				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/numSort",
 				"patcherrelativepath" : "../../Utillities/numSort",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.pass.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/pass",
+				"patcherrelativepath" : "../../Utillities/pass",
 				"type" : "JSON",
 				"implicit" : 1
 			}

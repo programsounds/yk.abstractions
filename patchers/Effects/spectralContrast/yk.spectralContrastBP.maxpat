@@ -106,6 +106,7 @@
 					"presentation_rect" : [ 219.282518595457077, 29.14798304438591, 23.5, 19.5 ],
 					"readonly" : 1,
 					"rounded" : 0.0,
+					"text" : "0",
 					"textjustification" : 1
 				}
 
@@ -1174,7 +1175,6 @@
 						"style" : "YKStyle_Patcher_02_12pt",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"format" : 6,
@@ -4525,33 +4525,33 @@
 									"restore" : 									{
 										"RCMixCurve" : [ 0.0 ],
 										"RCMixHold" : [ 0 ],
-										"RCMixMax" : [ 0.0 ],
+										"RCMixMax" : [ 1.0 ],
 										"RCMixMin" : [ 0.0 ],
-										"RCMixPeriod" : [ 0 ],
+										"RCMixPeriod" : [ 2000 ],
 										"RCMixSwitch" : [ 0 ],
 										"RCOutGainCurve" : [ 0.0 ],
 										"RCOutGainHold" : [ 0 ],
 										"RCOutGainMax" : [ 0.0 ],
-										"RCOutGainMin" : [ 0.0 ],
-										"RCOutGainPeriod" : [ 0 ],
+										"RCOutGainMin" : [ -70.0 ],
+										"RCOutGainPeriod" : [ 2000 ],
 										"RCOutGainSwitch" : [ 0 ],
 										"RCScaleHighCurve" : [ 0.0 ],
 										"RCScaleHighHold" : [ 0 ],
-										"RCScaleHighMax" : [ 0.0 ],
-										"RCScaleHighMin" : [ 10.0 ],
-										"RCScaleHighPeriod" : [ 9967 ],
+										"RCScaleHighMax" : [ 1.0 ],
+										"RCScaleHighMin" : [ 0.0 ],
+										"RCScaleHighPeriod" : [ 2000 ],
 										"RCScaleHighSwitch" : [ 0 ],
-										"RCScaleLowCurve" : [ 1.0 ],
+										"RCScaleLowCurve" : [ 0.0 ],
 										"RCScaleLowHold" : [ 0 ],
-										"RCScaleLowMax" : [ 0.0 ],
+										"RCScaleLowMax" : [ 70.0 ],
 										"RCScaleLowMin" : [ 0.0 ],
-										"RCScaleLowPeriod" : [ 0 ],
+										"RCScaleLowPeriod" : [ 2000 ],
 										"RCScaleLowSwitch" : [ 0 ],
 										"RCScaleMedCurve" : [ 0.0 ],
 										"RCScaleMedHold" : [ 0 ],
-										"RCScaleMedMax" : [ 0.0 ],
+										"RCScaleMedMax" : [ 50.0 ],
 										"RCScaleMedMin" : [ 0.0 ],
-										"RCScaleMedPeriod" : [ 0 ],
+										"RCScaleMedPeriod" : [ 2000 ],
 										"RCScaleMedSwitch" : [ 0 ]
 									}
 ,
@@ -4638,7 +4638,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 182.950195000000008, 14.710082999999999, 96.0, 33.0 ],
+									"patching_rect" : [ 182.950195000000008, 14.710082999999999, 96.0, 39.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 23.0, 221.0, 115.0, 23.0 ],
 									"text" : "presentation mode"
@@ -6949,6 +6949,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_02_12pt",
 						"tags" : ""
@@ -9001,6 +9002,8 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_01_13pt",
 						"tags" : ""
@@ -9836,13 +9839,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "yk.>p.maxpat",
-				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/legacy/>p",
-				"patcherrelativepath" : "../../Utillities/legacy/>p",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "yk.gen.mix.gendsp",
 				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/mix/lib",
 				"patcherrelativepath" : "../../Utillities/mix/lib",
@@ -9874,6 +9870,13 @@
 				"name" : "yk.numSort.maxpat",
 				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/numSort",
 				"patcherrelativepath" : "../../Utillities/numSort",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.pass.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/pass",
+				"patcherrelativepath" : "../../Utillities/pass",
 				"type" : "JSON",
 				"implicit" : 1
 			}
