@@ -1115,12 +1115,12 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 437.0, 79.0, 525.0, 343.0 ],
+						"rect" : [ 270.0, -955.0, 741.0, 609.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
-						"default_fontsize" : 9.0,
+						"default_fontsize" : 13.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
+						"default_fontname" : "Nunito Sans 10pt",
 						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 1,
@@ -1140,21 +1140,19 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"style" : "",
+						"style" : "YKStyle_Patcher_01_13pt",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-25",
-									"linecount" : 3,
+									"linecount" : 4,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.854476, 114.471198999999999, 177.0, 40.0 ],
+									"patching_rect" : [ 5.854476, 114.471198999999999, 179.0, 61.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 12.338160999999999, 100.451049999999995, 445.0, 18.0 ],
+									"presentation_rect" : [ 37.908497929573059, 206.535954236984253, 614.0, 24.0 ],
 									"text" : "It can be interpreted as the standard deviation of the power spectrum around the spectral centroid:"
 								}
 
@@ -1172,38 +1170,35 @@
 									"patching_rect" : [ 264.0, 400.0, 100.0, 50.0 ],
 									"pic" : "Macintosh HD:/Users/yota/Desktop/spectralSpread.png",
 									"presentation" : 1,
-									"presentation_rect" : [ 12.338160999999999, 118.451049999999995, 218.832443000000012, 61.281959999999998 ]
+									"presentation_rect" : [ 37.908497929573059, 232.535954236984253, 298.018703579902649, 82.631581902503967 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-8",
-									"linecount" : 13,
+									"linecount" : 18,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 32.175010999999998, 123.619774000000007, 161.0, 152.0 ],
+									"patching_rect" : [ 32.175010999999998, 123.619774000000007, 164.0, 184.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
-									"presentation_rect" : [ 12.338160999999999, 179.733001999999999, 492.0, 51.0 ],
+									"presentation_rect" : [ 37.908497929573059, 326.65360426902771, 674.018703579902649, 77.0 ],
 									"text" : "As the spectral centroid, the spectral spread is not defined for audio blocks with no spectral energy (i.e., silence) and will result in high values if the input signal contains low-level white noise. Thus use the internal noise gate for eliminating the background noise, yeilding to the signal of zero values, for which the module outputs a bang from the 2nd outlet for reporting detection errors. "
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-33",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 202.420333999999997, 141.570053000000001, 142.0, 18.0 ],
+									"patching_rect" : [ 202.420333999999997, 141.570053000000001, 144.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 243.003983000000005, 155.45107999999999, 118.0, 18.0 ],
+									"presentation_rect" : [ 369.281057417392731, 287.43791675567627, 157.0, 24.0 ],
 									"text" : "= spectral centroid in Hz"
 								}
 
@@ -1211,194 +1206,178 @@
 , 							{
 								"box" : 								{
 									"fontface" : 2,
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-28",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 175.720718000000005, 145.295578000000006, 150.0, 18.0 ],
+									"patching_rect" : [ 175.720718000000005, 145.295578000000006, 152.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 233.170609000000013, 155.45107999999999, 19.0, 18.0 ],
+									"presentation_rect" : [ 358.169945955276489, 287.43791675567627, 20.0, 24.0 ],
 									"text" : "μ"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-26",
-									"linecount" : 4,
+									"linecount" : 6,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 151.504791000000012, 96.242797999999993, 142.0, 51.0 ],
+									"patching_rect" : [ 151.504791000000012, 96.242797999999993, 143.0, 75.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 233.170609000000013, 121.451049999999995, 252.0, 40.0 ],
+									"presentation_rect" : [ 357.516351163387299, 232.535954236984253, 335.0, 60.0 ],
 									"text" : "n = half of the FFT size\na[i] = amp of bin i\nf[i] = freq of bin i = i x (sample rate / FFT window size)"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-12",
-									"linecount" : 7,
+									"linecount" : 9,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 5.854476, 75.601723000000007, 177.0, 85.0 ],
+									"patching_rect" : [ 5.854476, 75.601723000000007, 181.0, 102.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 12.338160999999999, 71.451049999999995, 505.0, 29.0 ],
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 37.908497929573059, 134.640527129173279, 674.018703579902649, 60.0 ],
 									"text" : "The algorithm uses the math equation from the book, Alexander Lerch. 2012. An introduction to audio content analysis: Applications in signal processing and music informatics. US: Wiley-IEEE Press as shown below."
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-4",
-									"linecount" : 10,
+									"linecount" : 14,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.031048999999999, 41.451053999999999, 166.0, 118.0 ],
+									"patching_rect" : [ 8.031048999999999, 41.451053999999999, 168.0, 143.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 12.338160999999999, 31.451053999999999, 505.0, 40.0 ],
+									"presentation_rect" : [ 37.908497929573059, 72.549021899700165, 674.509825229644775, 60.0 ],
 									"text" : "A feature extraction module for the spectral spread (a.k.a., spectral standard deviation or instantaneous bandwidth) of the incoming signal. It describes describes the concentration of the magnitude spectrum around the spectral centroid and is a rather technical description of spectral shape. "
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
+									"fontface" : 1,
 									"id" : "obj-1",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 179.666167999999999, 139.183181999999988, 63.0, 18.0 ],
+									"patching_rect" : [ 179.666167999999999, 139.183181999999988, 63.0, 42.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 176.338165000000004, 230.733001999999999, 61.0, 18.0 ],
+									"presentation_rect" : [ 252.941184461116791, 420.915045976638794, 84.0, 24.0 ],
 									"text" : "Description:"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-15",
 									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 145.666167999999999, 157.183181999999988, 19.0, 85.0 ],
+									"patching_rect" : [ 145.666167999999999, 157.183181999999988, 21.0, 102.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 7,
-									"presentation_rect" : [ 144.338165000000004, 248.733001999999999, 19.0, 85.0 ],
+									"presentation_rect" : [ 207.189549028873444, 447.712432444095612, 20.0, 131.0 ],
 									"text" : "x\nx\no\no\no\no\no"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
+									"fontface" : 1,
 									"id" : "obj-2",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 99.166175999999993, 139.183181999999988, 35.0, 18.0 ],
+									"patching_rect" : [ 99.166175999999993, 139.183181999999988, 38.0, 42.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 98.338165000000004, 230.733001999999999, 35.0, 18.0 ],
+									"presentation_rect" : [ 151.633991718292236, 420.915045976638794, 42.0, 24.0 ],
 									"text" : "Type:"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
+									"fontface" : 1,
 									"id" : "obj-10",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 145.666167999999999, 139.183181999999988, 34.0, 18.0 ],
+									"patching_rect" : [ 145.666167999999999, 139.183181999999988, 38.0, 42.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 144.338165000000004, 230.733001999999999, 32.0, 18.0 ],
+									"presentation_rect" : [ 207.189549028873444, 420.915045976638794, 44.0, 24.0 ],
 									"text" : "Pattr:"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
+									"fontface" : 1,
 									"id" : "obj-3",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.166175000000001, 139.183181999999988, 52.0, 18.0 ],
+									"patching_rect" : [ 10.166175000000001, 139.183181999999988, 56.0, 42.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 12.338160999999999, 230.733001999999999, 52.0, 18.0 ],
+									"presentation_rect" : [ 38.56209272146225, 420.915045976638794, 66.0, 24.0 ],
 									"text" : "Symbols:"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-30",
-									"linecount" : 8,
+									"linecount" : 10,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 179.666167999999999, 157.183181999999988, 313.0, 96.0 ],
+									"patching_rect" : [ 179.666167999999999, 157.183181999999988, 314.0, 129.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 7,
-									"presentation_rect" : [ 176.338165000000004, 248.733001999999999, 341.0, 85.0 ],
+									"presentation_rect" : [ 252.941184461116791, 447.712432444095612, 460.0, 131.0 ],
 									"text" : "initializes the parameters\nmessages to pattrstorage\nDSP (inside pfft~) on (1) | off (2)\nlinear input gain (0. ~ 3.)\nnoise gate threshold for input signal (dB) (-90. ~ 0.)\nnumber of raw centroid points to compute the median (1 ~ 10 (= 200 ms)) \nnumber of median points to compute the mean (1 ~ 50 (= 1000 ms)) "
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-29",
-									"linecount" : 7,
+									"linecount" : 8,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 99.166175999999993, 157.183181999999988, 46.0, 85.0 ],
+									"patching_rect" : [ 99.166175999999993, 157.183181999999988, 48.0, 102.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 7,
-									"presentation_rect" : [ 98.338165000000004, 248.733001999999999, 46.0, 85.0 ],
+									"presentation_rect" : [ 151.633991718292236, 447.712432444095612, 53.0, 131.0 ],
 									"text" : "bang\nvarious\nint\nfloat\nfloat\nint\nint"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-16",
-									"linecount" : 7,
+									"linecount" : 8,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.166175000000001, 157.183181999999988, 91.0, 85.0 ],
+									"patching_rect" : [ 10.166175000000001, 157.183181999999988, 93.0, 102.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 7,
-									"presentation_rect" : [ 12.338160999999999, 248.733001999999999, 86.0, 85.0 ],
+									"presentation_rect" : [ 38.56209272146225, 447.712432444095612, 111.0, 131.0 ],
 									"text" : "ssprInit\nssprPattrControl\nssprSwitch\nssprInGain\nssprThresh\nssprMedian\nssprMean"
 								}
 
@@ -1412,23 +1391,22 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 33.258457, 459.449279999999987, 149.0, 15.0 ],
+									"patching_rect" : [ 33.258457, 459.449279999999987, 149.0, 19.0 ],
 									"text" : "window flags nofloat, window exec"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 9.0,
 									"hidden" : 1,
 									"id" : "obj-20",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 151.258362000000005, 358.713622999999984, 85.0, 17.0 ],
+									"patching_rect" : [ 151.258362000000005, 358.713622999999984, 87.0, 31.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 12.338160999999999, 344.781158000000005, 85.0, 17.0 ],
+									"presentation_rect" : [ 38.56209272146225, 677.124204397201538, 124.0, 24.0 ],
 									"text" : "presentation mode"
 								}
 
@@ -1444,7 +1422,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 151.258362000000005, 378.713622999999984, 20.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 12.338160999999999, 361.781158000000005, 59.045490000000001, 59.045490000000001 ]
+									"presentation_rect" : [ 38.56209272146225, 703.267996072769165, 124.29907238483429, 124.29907238483429 ]
 								}
 
 							}
@@ -1457,7 +1435,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 151.258362000000005, 406.713622999999984, 31.0, 17.0 ],
+									"patching_rect" : [ 151.258362000000005, 406.713622999999984, 31.0, 19.0 ],
 									"text" : "== 0"
 								}
 
@@ -1471,7 +1449,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 151.258362000000005, 428.713684000000001, 73.0, 15.0 ],
+									"patching_rect" : [ 151.258362000000005, 428.713684000000001, 73.0, 19.0 ],
 									"text" : "presentation $1"
 								}
 
@@ -1485,7 +1463,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 10.166175000000001, 481.370422000000019, 56.0, 17.0 ],
+									"patching_rect" : [ 10.166175000000001, 481.370422000000019, 56.0, 19.0 ],
 									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
@@ -1500,7 +1478,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 10.166175000000001, 404.422974000000011, 49.0, 17.0 ],
+									"patching_rect" : [ 10.166175000000001, 404.422974000000011, 49.0, 19.0 ],
 									"text" : "loadbang"
 								}
 
@@ -1514,7 +1492,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.166175000000001, 428.713684000000001, 139.0, 15.0 ],
+									"patching_rect" : [ 10.166175000000001, 428.713684000000001, 139.0, 19.0 ],
 									"text" : "window flags float, window exec"
 								}
 
@@ -1534,30 +1512,29 @@
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
 									"id" : "obj-9",
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 219.721465999999992, 11.887819, 166.0, 18.0 ],
+									"patching_rect" : [ 219.721465999999992, 11.887819, 168.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 146.15003999999999, 9.644738, 130.0, 18.0 ],
+									"presentation_rect" : [ 543.790866851806641, 29.41176563501358, 169.0, 24.0 ],
 									"text" : "created by Yota Kobayashi"
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
+									"fontface" : 1,
+									"fontsize" : 18.0,
 									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.166175000000001, 11.887819, 192.0, 20.0 ],
+									"patching_rect" : [ 10.166175000000001, 11.887819, 271.0, 31.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 12.338160999999999, 8.644738, 107.0, 20.0 ],
+									"presentation_rect" : [ 37.908497929573059, 25.490196883678436, 167.0, 31.0 ],
 									"text" : "spectralSpreadBP"
 								}
 
@@ -1606,6 +1583,37 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "YKStyle_Patcher_01_13pt",
+								"default" : 								{
+									"accentcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ],
+									"bgcolor" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ],
+									"bgfillcolor" : 									{
+										"angle" : 270.0,
+										"autogradient" : 0.0,
+										"color" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+										"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+										"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+										"proportion" : 0.5,
+										"type" : "gradient"
+									}
+,
+									"color" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ],
+									"editing_bgcolor" : [ 0.109803921568627, 0.129411764705882, 0.156862745098039, 1.0 ],
+									"elementcolor" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+									"fontname" : [ "Nunito Sans 10pt" ],
+									"fontsize" : [ 13.0 ],
+									"locked_bgcolor" : [ 0.086274509803922, 0.105882352941176, 0.133333333333333, 1.0 ],
+									"patchlinecolor" : [ 0.674509803921569, 0.729411764705882, 0.780392156862745, 1.0 ],
+									"selectioncolor" : [ 0.27843137254902, 0.541176470588235, 0.898039215686275, 1.0 ],
+									"stripecolor" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+									"textcolor" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -1613,8 +1621,8 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"fontsize" : 9.0,
 						"globalpatchername" : "",
+						"style" : "YKStyle_Patcher_01_13pt",
 						"tags" : ""
 					}
 ,
