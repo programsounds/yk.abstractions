@@ -2,43 +2,61 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 10,
-			"architecture" : "x86"
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 4,
+			"architecture" : "x64",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
+		"classnamespace" : "box",
+		"rect" : [ -493.0, -1353.0, 2492.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 10.0,
+		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"default_fontname" : "Nunito Sans 10pt",
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "YKStyle_Patcher_02_12pt",
+		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"border" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
 					"id" : "obj-2",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "yk.grainSyncBP.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 17,
-					"offset" : [ -12.0, -8.0 ],
+					"offset" : [ -7.266272068023682, -7.40828400850296 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal", "" ],
-					"patching_rect" : [ 12.50515, 13.0, 688.0, 252.0 ],
-					"varname" : "yk.grainSyncBP"
+					"patching_rect" : [ 12.50515, 13.0, 796.449724555015564, 307.100599586963654 ],
+					"varname" : "yk.grainSyncBP",
+					"viewvisibility" : 1
 				}
 
 			}
@@ -46,127 +64,169 @@
 		"lines" : [  ],
 		"parameters" : 		{
 			"obj-2::obj-452" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-2::obj-512" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"obj-2::obj-505" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-2::obj-526" : [ "live.gain~[9]", "live.gain~", 0 ],
 			"obj-2::obj-491" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-2::obj-72" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-2::obj-533" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"obj-2::obj-498" : [ "live.gain~[5]", "live.gain~", 0 ],
-			"obj-2::obj-519" : [ "live.gain~[8]", "live.gain~", 0 ]
+			"obj-2::obj-505" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-2::obj-512" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-2::obj-519" : [ "live.gain~[8]", "live.gain~", 0 ],
+			"obj-2::obj-526" : [ "live.gain~[9]", "live.gain~", 0 ],
+			"obj-2::obj-533" : [ "live.gain~[10]", "live.gain~", 0 ],
+			"obj-2::obj-72" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "yk.grainSyncBP.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.poly.grainSync.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.transRatio.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/transRatio",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/transRatio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.grainSync.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
-				"type" : "JSON",
+				"name" : "yk.gen.counter.gendsp",
+				"bootpath" : "~/Dev/Max/yk.abstractions/code/counter",
+				"patcherrelativepath" : "../../../code/counter",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.gen.grainSync.bufPlayer.gendsp",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Players/grainSync/lib",
+				"patcherrelativepath" : "../../../patchers/Players/grainSync/lib",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "yk.r.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/r",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/r",
+				"name" : "yk.grainSync.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Players/grainSync/lib",
+				"patcherrelativepath" : "../../../patchers/Players/grainSync/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "yk.thru3.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/thru3",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/thru3",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.poly.grainSync.syncSignal.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.poly.grainSync.circBuf.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/Modules/Players/grainSync/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.gen.counter.gendsp",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/gen/counter",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/gen/counter",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.randomLine.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/randomLine",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/randomLine",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.randomFloat.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/randomFloat",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/randomFloat",
+				"name" : "yk.grainSyncBP.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Players/grainSync",
+				"patcherrelativepath" : "../../../patchers/Players/grainSync",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.logScale.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/logScale",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/logScale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "yk.>p.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/legacy/>p",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/legacy/>p",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/logScale",
+				"patcherrelativepath" : "../../../patchers/Utillities/logScale",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.numSort.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/numSort",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/numSort",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/numSort",
+				"patcherrelativepath" : "../../../patchers/Utillities/numSort",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.pass.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/pass",
+				"patcherrelativepath" : "../../../patchers/Utillities/pass",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.poly.grainSync.circBuf.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Players/grainSync/lib",
+				"patcherrelativepath" : "../../../patchers/Players/grainSync/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.poly.grainSync.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Players/grainSync/lib",
+				"patcherrelativepath" : "../../../patchers/Players/grainSync/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.poly.grainSync.syncSignal.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Players/grainSync/lib",
+				"patcherrelativepath" : "../../../patchers/Players/grainSync/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.r.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/r",
+				"patcherrelativepath" : "../../../patchers/Utillities/r",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.randomFloat.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/randomFloat",
+				"patcherrelativepath" : "../../../patchers/Utillities/randomFloat",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.randomLine.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/randomLine",
+				"patcherrelativepath" : "../../../patchers/Utillities/randomLine",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.thru3.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/thru3",
+				"patcherrelativepath" : "../../../patchers/Utillities/thru3",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "yk.transRatio.maxpat",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/transRatio",
+				"patcherrelativepath" : "../../../patchers/Utillities/transRatio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "yk.urn.maxpat",
-				"bootpath" : "/Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/urn",
-				"patcherrelativepath" : "../../../../../../../Users/yota/Data/Music/Software/Max/Patches/MyPatches/yk.abstractions/lib/utillities/urn",
+				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/urn",
+				"patcherrelativepath" : "../../../patchers/Utillities/urn",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"styles" : [ 			{
+				"name" : "YKStyle_Patcher_02_12pt",
+				"default" : 				{
+					"accentcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ],
+					"bgcolor" : [ 0.215686274509804, 0.243137254901961, 0.27843137254902, 1.0 ],
+					"bgfillcolor" : 					{
+						"angle" : 270.0,
+						"autogradient" : 0.0,
+						"color" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+						"color1" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+						"color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+						"proportion" : 0.5,
+						"type" : "gradient"
+					}
+,
+					"color" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ],
+					"editing_bgcolor" : [ 0.109803921568627, 0.129411764705882, 0.156862745098039, 1.0 ],
+					"elementcolor" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+					"fontname" : [ "Nunito Sans 10pt" ],
+					"fontsize" : [ 12.0 ],
+					"locked_bgcolor" : [ 0.086274509803922, 0.105882352941176, 0.133333333333333, 1.0 ],
+					"patchlinecolor" : [ 0.674509803921569, 0.729411764705882, 0.780392156862745, 1.0 ],
+					"selectioncolor" : [ 0.27843137254902, 0.541176470588235, 0.898039215686275, 1.0 ],
+					"stripecolor" : [ 0.270588235294118, 0.298039215686275, 0.341176470588235, 1.0 ],
+					"textcolor" : [ 0.772549019607843, 0.819607843137255, 0.870588235294118, 1.0 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
 			}
  ]
 	}
