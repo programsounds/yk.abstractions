@@ -54,7 +54,7 @@
 					"numoutlets" : 2,
 					"offset" : [ -13.759035766124725, -9.963855087757111 ],
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 7.0, 6.0, 225.903622806072235, 324.096397519111633 ],
+					"patching_rect" : [ 7.0, 6.0, 227.681658864021301, 323.875429630279541 ],
 					"varname" : "yk.noiseGeneratorBP",
 					"viewvisibility" : 1
 				}

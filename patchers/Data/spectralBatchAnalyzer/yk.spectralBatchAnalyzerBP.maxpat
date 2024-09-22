@@ -108,7 +108,6 @@
 					"readonly" : 1,
 					"rounded" : 0.0,
 					"tabmode" : 0,
-					"text" : "Macintosh HD:/Users/yota/Desktop/",
 					"wordwrap" : 0
 				}
 
@@ -1810,6 +1809,8 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
+						"fontsize" : 13.0,
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_01_13pt",
 						"tags" : ""
@@ -3702,7 +3703,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 625.517699999999991, 1583.46875, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 134.507044017314911, 352.816906034946442, 45.0, 45.0 ]
+					"presentation_rect" : [ 133.732394874095917, 352.321054220199585, 45.0, 45.0 ]
 				}
 
 			}
@@ -4091,7 +4092,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.175200999999987, 618.141296000000011, 293.686707000000013, 42.0 ],
+					"patching_rect" : [ 197.175200999999987, 618.141296000000011, 294.0, 42.0 ],
 					"text" : "\"Macintosh HD:/Users/yota/Data/GoogleDrive/RnD/Resources/Audio/TestSamples/\""
 				}
 
@@ -4198,7 +4199,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-19",
-					"items" : [ "anton.aif", ",", "cello-f2.aif", ",", "DC_0.8_2ch_10sec.aif", ",", "drumLoop.aif", ",", "jongly.aif", ",", "rainstick.aif", ",", "sho0630.aif", ",", "tongue.aif", ",", "vibes-a1.aif" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4698,7 +4699,7 @@
 				"patchline" : 				{
 					"color" : [ 0.463055, 0.463126, 0.463021, 1.0 ],
 					"destination" : [ "obj-42", 1 ],
-					"midpoints" : [ 139.00894199999999, 429.787323000000015, 481.361907999999971, 429.787323000000015 ],
+					"midpoints" : [ 139.00894199999999, 429.787323000000015, 481.675201000000015, 429.787323000000015 ],
 					"source" : [ "obj-187", 0 ]
 				}
 
