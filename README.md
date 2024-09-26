@@ -26,7 +26,7 @@ Currently, those abstractions that use `yk.<=p`, `yk.<p`, `yk.==p`, `yk.>=p`, `y
 | `sigmund~`      | [GitHub Repository](https://github.com/v7b1/sigmund_64bit-version)                          | yk.additiveBP, yk.FOFBP, yk.pitchTrackerBP |
 | `fof~`          | [IRCAM Max Sound Box](https://forum.ircam.fr/projects/detail/max-sound-box/)                | yk.FOFBP                             |
 | `chromax`       | [IRCAM Max Sound Box](https://forum.ircam.fr/projects/detail/max-sound-box/)                | yk.spectralDelayBP, yk.spectralFilterBP |
-| `resonators~`   | Max Package Manager                                                                         | yk.resonatorsBP                      |
+| `resonators~`   | CNMAT Externals from Max Package Manager                                                                         | yk.resonatorsBP                      |
 | `ICST Ambisonics`| Max Package Manager                                                                        | yk.spatializerBP                     |
 | `vbap`          | [GitHub Repository](https://github.com/jamoma/JamomaDependencies)                           | yk.spatializerBP                     |
 
