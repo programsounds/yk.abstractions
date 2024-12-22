@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -493.0, -1353.0, 2049.0, 1319.0 ],
+		"rect" : [ -418.0, -1353.0, 2049.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -6843,13 +6843,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Untitled.txt",
-				"bootpath" : "~/Data/GoogleDrive/RnD/Programming/Max/Externals/UBCToolbox_1.07/Modules/Players/boxcar/lib",
-				"patcherrelativepath" : "../../../../../../Data/GoogleDrive/RnD/Programming/Max/Externals/UBCToolbox_1.07/Modules/Players/boxcar/lib",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "yk.DCFilter.maxpat",
 				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/DCFilter",
 				"patcherrelativepath" : "../../Utillities/DCFilter",
