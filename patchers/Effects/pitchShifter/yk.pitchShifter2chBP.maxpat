@@ -1017,7 +1017,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1103.741577000000007, 253.357559000000009, 258.0, 20.0 ],
-									"restore" : [ 0.0 ],
+									"restore" : [ -2400.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2362,7 +2362,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 1103.741455000000087, 1019.384888000000046, 252.0, 20.0 ],
-									"restore" : [ 0.0 ],
+									"restore" : [ 1.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -2730,27 +2730,27 @@
 									"restore" : 									{
 										"RCFreqShiftCurve" : [ 0.0 ],
 										"RCFreqShiftHold" : [ 0 ],
-										"RCFreqShiftMax" : [ 0.0 ],
-										"RCFreqShiftMin" : [ 0.0 ],
-										"RCFreqShiftPeriod" : [ 0 ],
+										"RCFreqShiftMax" : [ 1000.0 ],
+										"RCFreqShiftMin" : [ -1000.0 ],
+										"RCFreqShiftPeriod" : [ 2000 ],
 										"RCFreqShiftSwitch" : [ 0 ],
 										"RCMixCurve" : [ 0.0 ],
 										"RCMixHold" : [ 0 ],
-										"RCMixMax" : [ 0.0 ],
+										"RCMixMax" : [ 1.0 ],
 										"RCMixMin" : [ 0.0 ],
-										"RCMixPeriod" : [ 0 ],
+										"RCMixPeriod" : [ 2000 ],
 										"RCMixSwitch" : [ 0 ],
 										"RCOutGainCurve" : [ 0.0 ],
 										"RCOutGainHold" : [ 0 ],
 										"RCOutGainMax" : [ 0.0 ],
-										"RCOutGainMin" : [ 0.0 ],
-										"RCOutGainPeriod" : [ 0 ],
+										"RCOutGainMin" : [ -70.0 ],
+										"RCOutGainPeriod" : [ 2000 ],
 										"RCOutGainSwitch" : [ 0 ],
 										"RCTransCurve" : [ 0.0 ],
 										"RCTransHold" : [ 0 ],
-										"RCTransMax" : [ 0.0 ],
-										"RCTransMin" : [ 0.0 ],
-										"RCTransPeriod" : [ 0 ],
+										"RCTransMax" : [ 2400.0 ],
+										"RCTransMin" : [ -2400.0 ],
+										"RCTransPeriod" : [ 2000 ],
 										"RCTransSwitch" : [ 0 ]
 									}
 ,
@@ -5584,13 +5584,13 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 432.382049999999992, 170.839798000000002, 122.0, 20.0 ],
 					"restore" : 					{
-						"FFTSize" : [ 0 ],
+						"FFTSize" : [ 1 ],
 						"freqShift" : [ 0.0 ],
 						"inGain" : [ 0.0 ],
-						"mix" : [ 0.0 ],
+						"mix" : [ 1.0 ],
 						"outGain" : [ 0.0 ],
 						"switch" : [ 0 ],
-						"trans" : [ 0.0 ]
+						"trans" : [ -2400.0 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
@@ -6495,7 +6495,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 526.800476000000003, 340.821715999999981, 50.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 65.800869703292847, 105.194811433553696, 50.0, 25.0 ],
+					"presentation_rect" : [ 65.800869703292847, 105.194811433553696, 52.506510764360428, 25.0 ],
 					"varname" : "trans"
 				}
 

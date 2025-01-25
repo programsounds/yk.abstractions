@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -493.0, -1353.0, 2049.0, 1319.0 ],
+		"rect" : [ -418.0, -1353.0, 2049.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2028,17 +2028,17 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 21.858006, 12.710082999999999, 122.0, 20.0 ],
 									"restore" : 									{
-										"RC1stTapMax" : [ 40.0 ],
+										"RC1stTapMax" : [ 5960.0 ],
 										"RC1stTapMin" : [ 40.0 ],
-										"RCChMap1stMax" : [ 1 ],
+										"RCChMap1stMax" : [ 8 ],
 										"RCChMap1stMin" : [ 1 ],
-										"RCFbMax" : [ 0.0 ],
+										"RCFbMax" : [ 1.0 ],
 										"RCFbMin" : [ 0.0 ],
-										"RCRandRangeMax" : [ 0.0 ],
-										"RCRandRangeMin" : [ 12000.0 ],
-										"RCRangeMax" : [ 40.0 ],
+										"RCRandRangeMax" : [ 12000.0 ],
+										"RCRandRangeMin" : [ 0.0 ],
+										"RCRangeMax" : [ 5960.0 ],
 										"RCRangeMin" : [ 40.0 ],
-										"RCTapsMax" : [ 1 ],
+										"RCTapsMax" : [ 128 ],
 										"RCTapsMin" : [ 1 ]
 									}
 ,
@@ -2790,6 +2790,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
+						"fontname" : "Nunito Sans 10pt",
 						"globalpatchername" : "",
 						"style" : "YKStyle_Patcher_02_12pt",
 						"tags" : ""
@@ -3627,7 +3628,7 @@
 					"patching_rect" : [ 603.357300000000009, 173.59165999999999, 122.0, 20.0 ],
 					"restore" : 					{
 						"1stTap" : [ 1000.0 ],
-						"ampDistr" : [ -0.139 ],
+						"ampDistr" : [ 0.0 ],
 						"chMap" : [ 0 ],
 						"chMap1st" : [ 1 ],
 						"fb" : [ 0.0 ],
@@ -3640,7 +3641,7 @@
 						"range" : [ 2000.0 ],
 						"switch" : [ 0 ],
 						"taps" : [ 8 ],
-						"timeDistr" : [ -0.735 ]
+						"timeDistr" : [ 0.0 ]
 					}
 ,
 					"text" : "autopattr @autorestore 0",
@@ -8294,7 +8295,6 @@
 				"box" : 				{
 					"fontlink" : 1,
 					"id" : "obj-14",
-					"legacytextcolor" : 1,
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
@@ -8308,8 +8308,6 @@
 					"style" : "YKStyle_textbutton_ModuleSwitch",
 					"text" : "delay",
 					"texton" : "delay",
-					"usebgoncolor" : 1,
-					"usetextovercolor" : 1,
 					"varname" : "switch"
 				}
 
@@ -10791,13 +10789,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Untitled.txt",
-				"bootpath" : "~/Data/GoogleDrive/RnD/Programming/Max/Externals/UBCToolbox_1.07/Modules/Players/boxcar/lib",
-				"patcherrelativepath" : "../../../../../../../Data/GoogleDrive/RnD/Programming/Max/Externals/UBCToolbox_1.07/Modules/Players/boxcar/lib",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "yk.DCFilter.maxpat",
 				"bootpath" : "~/Dev/Max/yk.abstractions/patchers/Utillities/DCFilter",
 				"patcherrelativepath" : "../../../Utillities/DCFilter",
