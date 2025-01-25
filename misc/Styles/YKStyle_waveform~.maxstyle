@@ -1,0 +1,9 @@
+{
+	"default" : 	{
+		"elementcolor" : [ 0.462745098039216, 0.517647058823529, 0.568627450980392, 1.0 ]
+	}
+,
+	"parentstyle" : "",
+	"name" : "YKStyle_waveform~",
+	"multi" : 0
+}
